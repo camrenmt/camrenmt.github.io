@@ -74,7 +74,11 @@ body {
     position: absolute;
     width: 1600px;
     
-    transform: translateY(-7%);
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    
     animation: slide 5s forwards;
     animation-delay: 6s;
 }
@@ -95,8 +99,8 @@ body {
 }
 
 @keyframes slide {
-   0% { transform: translateX(0%) translateY(-7%); }
-   100% { transform: translateX(-100%) translateY(-7%); }
+   0% { transform: translateX(0%) translateY(-50%); }
+   100% { transform: translateX(-100%) translateY(-70%); }
 }
 
 

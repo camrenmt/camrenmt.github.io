@@ -1,46 +1,62 @@
+body {
+    background: linear-gradient(234deg, #fff, #d3cfcb99);
+    background-size: 100% 100%;
+    
+    background-size: 400% 400%;
+    background-position: 100% 0%;
+
+    animation: color-fill 5s ease forwards;
+    animation-delay: 8.5s;
+}
+
 .fade {
+    /*(w)elcome*/
     animation: draw 1.5s linear forwards;
     animation-delay: .5s;
+    
+    box-shadow: 5px red;
 }
 
 .fade1 {
-    animation: draw 1.5s linear forwards;
-    animation-delay: 1.2s;
+    /*(w)elcome*/
+    animation: draw 1.6s linear forwards;
+    animation-delay: 1.1s;
 }
 
 .fade2 {
-    animation: draw 2s linear forwards;
+    /*w(el)come*/
+    animation: draw 2.5s linear forwards;
     animation-delay: 1.8s;
 }
 
 .fade3 {
-    animation: draw 2s linear forwards;
+    /*wel(c)ome*/
+    animation: draw 2.5s linear forwards;
     animation-delay: 3.4s;
 }
 
 .fade4 {
-    animation: draw 1.8s linear forwards;
-    animation-delay: 3.9s;
+    /*welc(om)e*/
+    animation: draw 3s linear forwards;
+    animation-delay: 4s;
 }
 
 .fade5 {
-    animation: draw 2s linear forwards;
-    animation-delay: 4.6s;
-}
-
-.fade5 {
-    animation: draw 2s linear forwards;
-    animation-delay: 4.8s;
+    /*welco(m)e*/
+    animation: draw 2.5s linear forwards;
+    animation-delay: 5.15s;
 }
 
 .fade6 {
-    animation: draw 2s linear forwards;
-    animation-delay: 5.2s;
+    /*welco(m)e*/
+    animation: draw 2.5s linear forwards;
+    animation-delay: 5.5s;
 }
 
 .fade7 {
-    animation: draw 2s linear forwards;
-    animation-delay: 5.5s;
+    /*welcom(e)*/
+    animation: draw-pull 4.5s linear forwards;
+    animation-delay: 5.9s;
 }
 
 .round {
@@ -50,18 +66,17 @@
     fill: none;
     stroke-width: 40;
 
-    stroke-dasharray: 2000;
-    stroke-dashoffset: 2000;
+    stroke-dasharray: 2500;
+    stroke-dashoffset: 2500;
 }
 
 #welcome {
     position: absolute;
-    left: 3%;
-    top: 25%;
-    width: 1500px;
-    animation: slide-out 4s forwards;
-    -webkit-animation: slide-out 4s forwards;
-    animation-delay: 8s;
+    width: 1600px;
+    
+    transform: translateY(-7%);
+    animation: slide 5s forwards;
+    animation-delay: 6s;
 }
 
 @keyframes draw {
@@ -70,10 +85,44 @@
     }
 }
 
-@keyframes slide-out {
-   0% { transform: translateX(0%); }
-   100% { transform: translateX(-100%); }
+@keyframes draw-pull {
+    50% {
+        stroke-dashoffset: 0;
+    }
+    87% {
+        stroke-dashoffset: -2600;
+    }
+}
+
+@keyframes slide {
+   0% { transform: translateX(0%) translateY(-7%); }
+   100% { transform: translateX(-100%) translateY(-7%); }
 }
 
 
+#header {
+    position: absolute;
+    display: inline-block;
+    height: 130px;
+    width: 100%;
+    
+    left: 100%;
+    
+    animation: slide 3s forwards;
+    animation-delay: 6.9s;
+}
 
+.color {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(234deg, #ffffff, #203a5a);
+    background-size: 400% 400%;
+    background-position: 100% 0%;
+
+    animation: color-fill 5s ease forwards;
+    animation-delay: 8.5s;
+}
+
+@keyframes color-fill {
+    100% { background-position: 0% 100%; }
+}

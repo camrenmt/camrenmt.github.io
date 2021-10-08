@@ -57,6 +57,9 @@ body {
     /*welcom(e)*/
     animation: draw-pull 4.5s linear forwards;
     animation-delay: 5.9s;
+    
+    stroke-dasharray: 3000;
+    stroke-dashoffset: 3000;
 }
 
 .round {
@@ -93,8 +96,8 @@ body {
     50% {
         stroke-dashoffset: 0;
     }
-    90% {
-        stroke-dashoffset: -2700;
+    100% {
+        stroke-dashoffset: -2500;
     }
 }
 

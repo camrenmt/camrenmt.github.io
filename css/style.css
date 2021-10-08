@@ -93,14 +93,14 @@ body {
     50% {
         stroke-dashoffset: 0;
     }
-    87% {
-        stroke-dashoffset: -2600;
+    90% {
+        stroke-dashoffset: -2700;
     }
 }
 
 @keyframes slide {
    0% { transform: translateX(0%) translateY(-50%); }
-   100% { transform: translateX(-100%) translateY(-70%); }
+   100% { transform: translateX(-100%) translateY(-50%); }
 }
 
 
@@ -142,7 +142,7 @@ body {
     background-position: 100% 0%;
 
     animation: color-fill 5s ease forwards;
-    animation-delay: 8.5s;
+    animation-delay: 8.2s;
 }
 
 @keyframes color-fill {

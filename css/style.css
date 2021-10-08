@@ -1,0 +1,79 @@
+.fade {
+    animation: draw 1.5s linear forwards;
+    animation-delay: .5s;
+}
+
+.fade1 {
+    animation: draw 1.5s linear forwards;
+    animation-delay: 1.2s;
+}
+
+.fade2 {
+    animation: draw 2s linear forwards;
+    animation-delay: 1.8s;
+}
+
+.fade3 {
+    animation: draw 2s linear forwards;
+    animation-delay: 3.4s;
+}
+
+.fade4 {
+    animation: draw 1.8s linear forwards;
+    animation-delay: 3.9s;
+}
+
+.fade5 {
+    animation: draw 2s linear forwards;
+    animation-delay: 4.6s;
+}
+
+.fade5 {
+    animation: draw 2s linear forwards;
+    animation-delay: 4.8s;
+}
+
+.fade6 {
+    animation: draw 2s linear forwards;
+    animation-delay: 5.2s;
+}
+
+.fade7 {
+    animation: draw 2s linear forwards;
+    animation-delay: 5.5s;
+}
+
+.round {
+    stroke-linecap: round;
+    stroke-miterlimit: 2;
+    stroke: #203a5a;
+    fill: none;
+    stroke-width: 40;
+
+    stroke-dasharray: 2000;
+    stroke-dashoffset: 2000;
+}
+
+#welcome {
+    position: absolute;
+    left: 3%;
+    top: 25%;
+    width: 1500px;
+    animation: slide-out 4s forwards;
+    -webkit-animation: slide-out 4s forwards;
+    animation-delay: 8s;
+}
+
+@keyframes draw {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes slide-out {
+   0% { transform: translateX(0%); }
+   100% { transform: translateX(-100%); }
+}
+
+
+

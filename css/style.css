@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(234deg, #fff, #d3cfcb99);
+    background: linear-gradient(234deg, #fff, #5c5353a3);
     background-size: 100% 100%;
     
     background-size: 400% 400%;
@@ -86,30 +86,8 @@ body {
     animation-delay: 6s;
 }
 
-@keyframes draw {
-    to {
-        stroke-dashoffset: 0;
-    }
-}
-
-@keyframes draw-pull {
-    50% {
-        stroke-dashoffset: 0;
-    }
-    100% {
-        stroke-dashoffset: -2500;
-    }
-}
-
-@keyframes slide {
-   0% { transform: translateX(0%) translateY(-50%); }
-   100% { transform: translateX(-100%) translateY(-50%); }
-}
-
-
 #header {
     position: absolute;
-    display: inline-block;
     height: 130px;
     width: 100%;
     left: 100%;
@@ -148,6 +126,43 @@ body {
     animation-delay: 8.2s;
 }
 
+.panel {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: 2%;
+    background: white;
+    border-radius: 12px;
+}
+
+.section {
+    position: absolute;
+    display: flex;
+    height: 500px;
+    width: 100%;
+    left: 100%;
+}
+
 @keyframes color-fill {
     100% { background-position: 0% 100%; }
+}
+
+@keyframes draw {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes draw-pull {
+    50% {
+        stroke-dashoffset: 0;
+    }
+    100% {
+        stroke-dashoffset: -2500;
+    }
+}
+
+@keyframes slide {
+   0% { transform: translateX(0%) translateY(-50%); }
+   100% { transform: translateX(-100%) translateY(-50%); }
 }

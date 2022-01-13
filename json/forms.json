@@ -88,7 +88,7 @@
         {
             "name" : "Schedule LEP",
             "f-value" : "f1040lep",
-            "i-value" : "f1004lep"
+            "i-value" : "f1040lep"
         },
         {
             "name" : "Schedule R",
@@ -227,9 +227,330 @@
         }
     ],
     
-    "state" : [
+    "states" : [
         {
-            "idaho" : [
+            "state-name" : "Alabama",
+            "forms" : [
+                {
+                    
+                }
+            ]
+        },
+        {
+            "state-name" : "Arizona",
+            "forms" : [
+                {
+                    
+                }
+            ]
+        },
+        {
+            "state-name" : "Arkansas",
+            "forms" : [
+                {
+                    
+                }
+            ]
+        },
+        {
+            "state-name" : "California",
+            "forms" : [
+                {
+                    
+                }
+            ]
+        },
+        {
+            "state-name" : "Colorado",
+            "forms" : [
+                {
+                    
+                }
+            ]
+        },
+        {
+            "state-name" : "Connecticut",
+            "forms" : [
+                {
+                    
+                }
+            ]
+        },
+        {
+            "state-name" : "Delaware",
+            "forms" : [
+                {
+                    
+                }
+            ]
+        },
+        {
+            "state-name" : "District of Columbia",
+            "forms" : [
+                {
+                    
+                }
+            ]
+        },
+        {
+            "state-name" : "Georgia",
+            "forms" : [
+                {
+                    
+                }
+            ]
+        },
+        {
+            "state-name" : "Hawaii",
+            "forms" : [
+                {
+                    
+                }
+            ]
+        },
+        {
+            "state-name" : "Idaho",
+            "forms" : [
+                {
+                    
+                }
+            ]
+        },
+        {
+            "state-name" : "Illinois",
+            "forms" : [
+                {
+                    
+                }
+            ]
+        },
+        {
+            "state-name" : "Indiana",
+            "forms" : [
+                {
+                    
+                }
+            ]
+        },
+        {
+            "state-name" : "Iowa",
+            "forms" : [
+                {
+                    
+                }
+            ]
+        },
+        {
+            "state-name" : "Kansas",
+            "forms" : [
+                {
+                    
+                }
+            ]
+        },
+        {
+            "state-name" : "Kentucky",
+            "forms" : [
+                {
+                    
+                }
+            ]
+        },
+        {
+            "state-name" : "Louisiana",
+            "forms" : [
+                {
+                    
+                }
+            ]
+        },
+        {
+            "state-name" : "Maine",
+            "forms" : [
+                {
+                    
+                }
+            ]
+        },
+        {
+            "state-name" : "Massachusetts",
+            "forms" : [
+                {
+                    
+                }
+            ]
+        },
+        {
+            "state-name" : "Michigan",
+            "forms" : [
+                {
+                    
+                }
+            ]
+        },
+        {
+            "state-name" : "Minnesota",
+            "forms" : [
+                {
+                    
+                }
+            ]
+        },
+        {
+            "state-name" : "Mississippi",
+            "forms" : [
+                {
+                    
+                }
+            ]
+        },
+        {
+            "state-name" : "Missouri",
+            "forms" : [
+                {
+                    
+                }
+            ]
+        },
+        {
+            "state-name" : "Montana",
+            "forms" : [
+                {
+                    
+                }
+            ]
+        },
+        {
+            "state-name" : "Nebraska",
+            "forms" : [
+                {
+                    
+                }
+            ]
+        },
+        {
+            "state-name" : "New Jersey",
+            "forms" : [
+                {
+                    
+                }
+            ]
+        },
+        {
+            "state-name" : "New Mexico",
+            "forms" : [
+                {
+                    
+                }
+            ]
+        },
+        {
+            "state-name" : "New York",
+            "forms" : [
+                {
+                    
+                }
+            ]
+        },
+        {
+            "state-name" : "North Carolina",
+            "forms" : [
+                {
+                    
+                }
+            ]
+        },
+        {
+            "state-name" : "North Dakota",
+            "forms" : [
+                {
+                    
+                }
+            ]
+        },
+        {
+            "state-name" : "Ohio",
+            "forms" : [
+                {
+                    
+                }
+            ]
+        },
+        {
+            "state-name" : "Oklahoma",
+            "forms" : [
+                {
+                    
+                }
+            ]
+        },
+        {
+            "state-name" : "Oregon",
+            "forms" : [
+                {
+                    
+                }
+            ]
+        },
+        {
+            "state-name" : "Pennsylvania",
+            "forms" : [
+                {
+                    
+                }
+            ]
+        },
+        {
+            "state-name" : "Rhode Island",
+            "forms" : [
+                {
+                    
+                }
+            ]
+        },
+        {
+            "state-name" : "South Carolina",
+            "forms" : [
+                {
+                    
+                }
+            ]
+        },
+        {
+            "state-name" : "Utah",
+            "forms" : [
+                {
+                    
+                }
+            ]
+        },
+        {
+            "state-name" : "Vermont",
+            "forms" : [
+                {
+                    
+                }
+            ]
+        },
+        {
+            "state-name" : "Virginia",
+            "forms" : [
+                {
+                    
+                }
+            ]
+        },
+        {
+            "state-name" : "West Virginia",
+            "forms" : [
+                {
+                    
+                }
+            ]
+        },
+        {
+            "state-name" : "Wisconsin",
+            "forms" : [
                 {
                     
                 }

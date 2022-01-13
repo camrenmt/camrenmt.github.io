@@ -2,10 +2,12 @@
 <html lang=“en”>
 	<head>
         <script src="js/main.js"></script>
+        <style>
+            .d-none { display: none }
+        </style>
     </head>
     <header style="height:50px">
-        <span>DISCLAIMER: This site is only for the quick lookup of general forms. 
-            Not all forms shown may be valid.
+        <span>UNDER CONSTRUCTION
         </span>
     </header>
 	<body style="postion:relative;">
@@ -16,14 +18,19 @@
                 <option value="state">State</option>
             </select>
             <select id="form-type-select">
-                <option selected value="i">Instructions</option>
-                <option value="f">Forms</option>
-                <option value="p">Publications</option>
+                <option disabled selected>Choose Form Type</option>
+                <option id="inst" value="i">Instructions</option>
+                <option id="forms" value="f">Forms</option>
+                <option id="pubs" value="p">Publications</option>
             </select>
             <select id="year-select">
                 <option value="2021">2021</option>
                 <option value="2020">2020</option>
                 <option value="2019">2019</option>
+            </select>
+            <select id="state-select" class="d-none">
+                <option disabled selected>Choose a State</option>
+                <option hidden id="state-select-base"></option>
             </select>
             <select id="form-select">
                 <option disabled selected>Choose a Form</option>
@@ -31,7 +38,9 @@
             </select>
 
             <div>
-                <span id="link-field"></span>
+                <button id="link-button">
+                    Open Form
+                </button>
             </div>
             
         </section>

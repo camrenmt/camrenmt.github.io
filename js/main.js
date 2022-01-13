@@ -4,7 +4,10 @@ window.onload = function() {
     var yearSelect = document.getElementById('year-select');
     var formSelect = document.getElementById('form-select');
 
+    var request = new XMLHttpRequest();
+    request.open("GET", "../json/forms.json", false);
+    request.send(null);
+    var jsonForms = JSON.parse(request.responseText);
 
-    const jsonForms = require('../json/forms.json');
     console.log(jsonForms);
 }

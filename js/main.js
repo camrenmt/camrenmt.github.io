@@ -3,6 +3,7 @@ window.onload = function() {
     var fedStateSelect = document.getElementById('fs-select');
     var yearSelect = document.getElementById('year-select');
     var formTypeSelect = document.getElementById('form-type-select');
+    var formSelect = document.getElementById('form-select');
 
     var request = new XMLHttpRequest();
     request.open("GET", "../json/forms.json", false);
@@ -13,6 +14,17 @@ window.onload = function() {
     else if (fedStateSelect.selctedOptions[0].value === "state") fillState;
 
     formTypeSelect.addEventListener("change", fillFed);
+    formSelect.addEventListener("change", f => {
+        var linkEle = document.getElementById('link-field');
+        var year = yearSelect.selectedOptions[0].value;
+        var fedState = document.getElementById('fs-select').selectedOptions[0].value;
+
+        if (fedState === "fed") {
+            var link = `https://www.irs.gov/pub/irs-prior/${e.value}--${year}.pdf`
+        }
+        
+        linkEle.innerText = link;
+    });
 }
 
 function fillFed() {

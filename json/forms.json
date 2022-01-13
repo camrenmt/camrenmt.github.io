@@ -72,158 +72,158 @@
         },
         {
             "name" : "Schedule EIC",
-            "f-value" : "",
-            "i-value" : ""
+            "f-value" : "f1040sei",
+            "i-value" : "f1040sei"
         },
         {
             "name" : "Schedule F",
-            "f-value" : "",
-            "i-value" : ""
+            "f-value" : "f1040sf",
+            "i-value" : "i1040sf"
         },
         {
             "name" : "Schedule H",
-            "f-value" : "",
-            "i-value" : ""
+            "f-value" : "f1040sh",
+            "i-value" : "i1040sh"
         },
         {
             "name" : "Schedule LEP",
-            "f-value" : "",
-            "i-value" : ""
+            "f-value" : "f1040lep",
+            "i-value" : "f1004lep"
         },
         {
             "name" : "Schedule R",
-            "f-value" : "",
-            "i-value" : ""
+            "f-value" : "f1040sr",
+            "i-value" : "i1040sr"
         },
         {
             "name" : "Schedule SE",
-            "f-value" : "",
-            "i-value" : ""
+            "f-value" : "f1040sse",
+            "i-value" : "i1040sse"
         },
         {
             "name" : "Form 461",
-            "f-value" : "",
-            "i-value" : ""
+            "f-value" : "f461",
+            "i-value" : "i461"
         },
         {
             "name" : "Form 982",
-            "f-value" : "",
-            "i-value" : ""
+            "f-value" : "f982",
+            "i-value" : "i982"
         },
         {
             "name" : "Form 1116",
-            "f-value" : "",
-            "i-value" : ""
+            "f-value" : "f1116",
+            "i-value" : "i1116"
         },
         {
             "name" : "Form 1310",
-            "f-value" : "",
-            "i-value" : ""
+            "f-value" : "f1310",
+            "i-value" : "i1310"
         },
         {
             "name" : "Form 2106",
-            "f-value" : "",
-            "i-value" : ""
+            "f-value" : "f2106",
+            "i-value" : "i2106"
         },        
         {
             "name" : "Form 2120",
-            "f-value" : "",
-            "i-value" : ""
+            "f-value" : "f2120",
+            "i-value" : "i2120"
         },        
         {
             "name" : "Form 2210",
-            "f-value" : "",
-            "i-value" : ""
+            "f-value" : "f2210",
+            "i-value" : "i2210"
         },        
         {
             "name" : "Form 2210-F",
-            "f-value" : "",
-            "i-value" : ""
+            "f-value" : "f2210f",
+            "i-value" : "i2210f"
         },        
         {
             "name" : "Form 2441",
-            "f-value" : "",
-            "i-value" : ""
+            "f-value" : "f2441",
+            "i-value" : "i2441"
         },        
         {
             "name" : "Form 3800",
-            "f-value" : "",
-            "i-value" : ""
+            "f-value" : "f3800",
+            "i-value" : "i3800"
         },        
         {
             "name" : "Form 3903",
-            "f-value" : "",
-            "i-value" : ""
+            "f-value" : "f3903",
+            "i-value" : "i3903"
         },        
         {
             "name" : "Form 4136",
-            "f-value" : "",
-            "i-value" : ""
+            "f-value" : "f4136",
+            "i-value" : "i4136"
         },        
         {
             "name" : "Form 4137",
-            "f-value" : "",
-            "i-value" : ""
+            "f-value" : "f4137",
+            "i-value" : "i4137"
         },        
         {
             "name" : "Form 4562",
-            "f-value" : "",
-            "i-value" : ""
+            "f-value" : "f4562",
+            "i-value" : "i4562"
         },       
         {
             "name" : "Form 4684",
-            "f-value" : "",
-            "i-value" : ""
+            "f-value" : "f4684",
+            "i-value" : "i4684"
         },        
         {
             "name" : "Form 4797",
-            "f-value" : "",
-            "i-value" : ""
+            "f-value" : "f4797",
+            "i-value" : "i4797"
         },        
         {
             "name" : "Form 4835",
-            "f-value" : "",
-            "i-value" : ""
+            "f-value" : "f4835",
+            "i-value" : "i4835"
         },        
         {
             "name" : "Form 4868",
-            "f-value" : "",
-            "i-value" : ""
+            "f-value" : "f4868",
+            "i-value" : "i4868"
         },        
         {
             "name" : "Form 4952",
-            "f-value" : "",
-            "i-value" : ""
+            "f-value" : "f4952",
+            "i-value" : "i4952"
         },        
         {
             "name" : "Form 5329",
-            "f-value" : "",
-            "i-value" : ""
+            "f-value" : "f5329",
+            "i-value" : "i5329"
         },
         {
             "name" : "Form 5405",
-            "f-value" : "",
-            "i-value" : ""
+            "f-value" : "f5405",
+            "i-value" : "i5405"
         },
         {
             "name" : "Form 5695",
-            "f-value" : "",
-            "i-value" : ""
+            "f-value" : "f5695",
+            "i-value" : "i5695"
         },
         {
             "name" : "Form 6251",
-            "f-value" : "",
-            "i-value" : ""
+            "f-value" : "f6251",
+            "i-value" : "i6251"
         },
         {
             "name" : "Form 6252",
-            "f-value" : "",
-            "i-value" : ""
+            "f-value" : "f6252",
+            "i-value" : "i6252"
         },
         {
             "name" : "Form 6781",
-            "f-value" : "",
-            "i-value" : ""
+            "f-value" : "f6781",
+            "i-value" : "i6781"
         }
     ],
     

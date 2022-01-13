@@ -2,9 +2,7 @@
 <html lang=“en”>
 	<head>
         <script src="js/main.js"></script>
-		<script src="/json/forms.json"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	</head>
+    </head>
     <header style="height:50px">
         <span>DISCLAIMER: This site is only for the quick lookup of general forms. 
             Not all forms shown may be valid.
@@ -12,13 +10,13 @@
     </header>
 	<body style="postion:relative;">
 		
-        <section>
+        <section id="selectors">
             <select id="fs-select">
-                <option value="fed">Federal</option>
+                <option selected value="fed">Federal</option>
                 <option value="state">State</option>
             </select>
             <select id="form-type-select">
-                <option value="i">Instructions</option>
+                <option selected value="i">Instructions</option>
                 <option value="f">Forms</option>
                 <option value="p">Publications</option>
             </select>
@@ -28,8 +26,8 @@
                 <option value="19">2019</option>
             </select>
             <select id="form-select">
-                <option value="1040">Form 1040</option>
-                <option value="1040s1">Schedule 1 (1040)</option>
+                <option disabled selected>Choose a Form</option>
+                <option hidden id="form-select-base"></option>
             </select>
             
         </section>

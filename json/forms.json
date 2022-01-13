@@ -232,7 +232,331 @@
             "state-name" : "Alabama",
             "forms" : [
                 {
-                    
+                    "name" : "Form 40",
+                    "2021" : "NA",
+                    "2020" : "https://revenue.alabama.gov/wp-content/uploads/2021/01/20f40blk.pdf",
+                    "2019" : "https://revenue.alabama.gov/wp-content/uploads/2020/01/19f40blk.pdf"
+
+                },
+                {
+                    "name" : "Form 40NR",
+                    "2021" : "NA",
+                    "2020" : "https://revenue.alabama.gov/wp-content/uploads/2021/01/20f40nrblk.pdf",
+                    "2019" : "i6252"
+                },
+                {
+                    "name" : "Form 40V (Voucher)",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                },
+                {
+                    "name" : "Form 40ES",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                },
+                {
+                    "name" : "Schedule A",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                },
+                {
+                    "name" : "Schedule B",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                },
+                {
+                    "name" : "Schedule DC",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                },
+                {
+                    "name" : "Schedule D",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                },
+                {
+                    "name" : "Schedule E",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                },
+                {
+                    "name" : "Schedule A (Form 40NR)",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                },
+                {
+                    "name" : "Schedule B (Form 40NR)",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                },
+                {
+                    "name" : "Schedule D (Form 40NR)",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                },
+                {
+                    "name" : "Schedule E (Form 40NR)",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                },
+                {
+                    "name" : "Schedule DS",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                },
+                {
+                    "name" : "Schedule HOF",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                },
+                {
+                    "name" : "Schedule CR",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                },
+                {
+                    "name" : "Schedule OC",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                },
+                {
+                    "name" : "Schedule AATC",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                },
+                {
+                    "name" : "Schedule AAC",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                },
+                {
+                    "name" : "Schedule KRCC-L",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                },
+                {
+                    "name" : "Form NOL-85",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                },
+                {
+                    "name" : "Form NOL-85A",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                },
+                {
+                    "name" : "Schedule W-2",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                },
+                {
+                    "name" : "Form 4952A",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                },
+                {
+                    "name" : "Schedule CP",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                },
+                {
+                    "name" : "Form AL8453",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                },
+                {
+                    "name" : "Form AL8453OL",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                }
+            ],
+            "instructions" : [
+                {
+                    "name" : "Form 40",
+                    "2021" : "NA",
+                    "2020" : "https://revenue.alabama.gov/wp-content/uploads/2021/01/20f40bk.pdf",
+                    "2019" : "https://revenue.alabama.gov/wp-content/uploads/2020/01/19f40bk.pdf"
+                },
+                {
+                    "name" : "Form 40NR",
+                    "2021" : "",
+                    "2020" : "https://revenue.alabama.gov/wp-content/uploads/2021/01/20f40nrbk.pdf",
+                    "2019" : "https://revenue.alabama.gov/wp-content/uploads/2020/01/19f40nrbk.pdf"
+                },
+                {
+                    "name" : "Form 40V (Voucher)",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                },
+                {
+                    "name" : "Form 40ES",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                },
+                {
+                    "name" : "Schedule A",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                },
+                {
+                    "name" : "Schedule B",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                },
+                {
+                    "name" : "Schedule DC",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                },
+                {
+                    "name" : "Schedule D",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                },
+                {
+                    "name" : "Schedule E",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                },
+                {
+                    "name" : "Schedule A (Form 40NR)",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                },
+                {
+                    "name" : "Schedule B (Form 40NR)",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                },
+                {
+                    "name" : "Schedule D (Form 40NR)",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                },
+                {
+                    "name" : "Schedule E (Form 40NR)",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                },
+                {
+                    "name" : "Schedule DS",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                },
+                {
+                    "name" : "Schedule HOF",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                },
+                {
+                    "name" : "Schedule CR",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                },
+                {
+                    "name" : "Schedule OC",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                },
+                {
+                    "name" : "Schedule AATC",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                },
+                {
+                    "name" : "Schedule AAC",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                },
+                {
+                    "name" : "Schedule KRCC-L",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                },
+                {
+                    "name" : "Form NOL-85",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                },
+                {
+                    "name" : "Form NOL-85A",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                },
+                {
+                    "name" : "Schedule W-2",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                },
+                {
+                    "name" : "Form 4952A",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                },
+                {
+                    "name" : "Schedule CP",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                },
+                {
+                    "name" : "Form AL8453",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
+                },
+                {
+                    "name" : "Form AL8453OL",
+                    "2021" : "NA",
+                    "2020" : "",
+                    "2019" : ""
                 }
             ]
         },

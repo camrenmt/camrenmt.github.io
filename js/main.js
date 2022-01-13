@@ -14,9 +14,10 @@ window.onload = function() {
     jsonData = JSON.parse(request.responseText);
  
     fedStateSelect.addEventListener("change", initStateOrFed);
-    formTypeSelect.addEventListener("change", fillFed);
+    formTypeSelect.addEventListener("change", initStateOrFed);
     formSelect.addEventListener("change", createLink);
     document.getElementById('link-button').addEventListener("click", openWindow);
+    document.getElementById('state-select').addEventListener("change", fillStateForms);
 
     if (fedStateSelect.selectedOptions[0].value === "fed") fillFed;
     else if (fedStateSelect.selctedOptions[0].value === "state") fillStates;
@@ -46,6 +47,9 @@ function createLink() {
         } else {
             link = `https://www.irs.gov/pub/irs-pdf/${form}.pdf`;
         }
+    } else if (fedState === "state") {
+        var stateInd = document.getElementById('state-select').selectedOptions[0].value;
+        link = jsonData.states[stateInd]['instructions'][form][year];
     }
     
     document.getElementById('link-button').innerText = document.getElementById('form-select').selectedOptions[0].innerText;
@@ -75,12 +79,7 @@ function fillFedForm(type) {
         var opt = document.createElement('option');
         opt.classList.add('fList');
         opt.innerText = e.name;
-        
-        if (type === "f") {
-            opt.value = i++;
-        } else if (type === "i") {
-            opt.value = i++;
-        }
+        opt.value = i++;
         
         formSelect.insertBefore(opt, document.getElementById('form-select-base'));
     });
@@ -93,19 +92,41 @@ function fillFedPub() {
 function fillStates() {
     var stateSelect = document.getElementById('state-select');
 
+    var i = 0;
     jsonData.states.forEach(e => {
         var opt = document.createElement('option');
         opt.classList.add('fList');;
         opt.innerText = e['state-name'];
-        
-        /*if (type === "f") {
-            opt.value = e['f-value'];
-        } else if (type === "i") {
-            opt.value = e['i-value'];
-        }*/
+        opt.value = i++;
         
         stateSelect.insertBefore(opt, document.getElementById('state-select-base'));
     });
+}
+
+function fillStateForms() {
+    var stateIndex = document.getElementById('state-select').selectedOptions[0].value;
+    var formSelect = document.getElementById('form-select');
+
+    var i = 0
+    if (document.getElementById('form-type-select').selectedOptions[0].value === 'f') {
+        jsonData.states[stateIndex]['forms'].forEach(e => {
+            var opt = document.createElement('option');
+            opt.classList.add('fList');
+            opt.innerText = e.name;
+            opt.value = i++;
+            
+            formSelect.insertBefore(opt, document.getElementById('form-select-base'));
+        });
+    } else if (document.getElementById('form-type-select').selectedOptions[0].value === 'i') {
+        jsonData.states[stateIndex]['instructions'].forEach(e => {
+            var opt = document.createElement('option');
+            opt.classList.add('fList');
+            opt.innerText = e.name;
+            opt.value = i++;
+            
+            formSelect.insertBefore(opt, document.getElementById('form-select-base'));
+        });
+    }
 }
 
 function initStateOrFed() {

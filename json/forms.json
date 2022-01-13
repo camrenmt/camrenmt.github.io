@@ -1,0 +1,239 @@
+{
+    "federal" : [
+        {
+            "name" : "Form 1040",
+            "f-value" : "1040",
+            "i-value" : "1040gi"
+        },
+        {
+            "name" : "Form 1040-SR",
+            "f-value" : "f1040s",
+            "i-value" : "i1040gi"
+        },
+        {
+            "name" : "Form 1040-X",
+            "f-value" : "f1040x",
+            "i-value" : "i1040x"
+        },
+        {
+            "name" : "Form 1040-ES",
+            "f-value" : "f1040es",
+            "i-value" : "f1040es"
+        },
+        {
+            "name" : "Form 1040-V",
+            "f-value" : "f1040v",
+            "i-value" : "f1040v"
+        },
+        {
+            "name" : "Schedule 8812",
+            "f-value" : "f1040s8",
+            "i-value" : "i1040s8"
+        },
+        {
+            "name" : "Schedule 1",
+            "f-value" : "f1040s1",
+            "i-value" : "i1040gi"
+        },
+        {
+            "name" : "Schedule 2",
+            "f-value" : "f1040s1",
+            "i-value" : "i1040gi"
+        },
+        {
+            "name" : "Schedule 3",
+            "f-value" : "f1040s1",
+            "i-value" : "i1040gi"
+        },
+        {
+            "name" : "Schedule A",
+            "f-value" : "f1040sa",
+            "i-value" : "i1040sca"
+        },
+        {
+            "name" : "Schedule B",
+            "f-value" : "f1040sb",
+            "i-value" : "i1040sb"
+        },
+        {
+            "name" : "Schedule C",
+            "f-value" : "f1040sc",
+            "i-value" : "i1040sc"
+        },
+        {
+            "name" : "Schedule D",
+            "f-value" : "f1040sd",
+            "i-value" : "i1040sd"
+        },
+        {
+            "name" : "Schedule E",
+            "f-value" : "f1040se",
+            "i-value" : "i1040se"
+        },
+        {
+            "name" : "Schedule EIC",
+            "f-value" : "",
+            "i-value" : ""
+        },
+        {
+            "name" : "Schedule F",
+            "f-value" : "",
+            "i-value" : ""
+        },
+        {
+            "name" : "Schedule H",
+            "f-value" : "",
+            "i-value" : ""
+        },
+        {
+            "name" : "Schedule LEP",
+            "f-value" : "",
+            "i-value" : ""
+        },
+        {
+            "name" : "Schedule R",
+            "f-value" : "",
+            "i-value" : ""
+        },
+        {
+            "name" : "Schedule SE",
+            "f-value" : "",
+            "i-value" : ""
+        },
+        {
+            "name" : "Form 461",
+            "f-value" : "",
+            "i-value" : ""
+        },
+        {
+            "name" : "Form 982",
+            "f-value" : "",
+            "i-value" : ""
+        },
+        {
+            "name" : "Form 1116",
+            "f-value" : "",
+            "i-value" : ""
+        },
+        {
+            "name" : "Form 1310",
+            "f-value" : "",
+            "i-value" : ""
+        },
+        {
+            "name" : "Form 2106",
+            "f-value" : "",
+            "i-value" : ""
+        },        
+        {
+            "name" : "Form 2120",
+            "f-value" : "",
+            "i-value" : ""
+        },        
+        {
+            "name" : "Form 2210",
+            "f-value" : "",
+            "i-value" : ""
+        },        
+        {
+            "name" : "Form 2210-F",
+            "f-value" : "",
+            "i-value" : ""
+        },        
+        {
+            "name" : "Form 2441",
+            "f-value" : "",
+            "i-value" : ""
+        },        
+        {
+            "name" : "Form 3800",
+            "f-value" : "",
+            "i-value" : ""
+        },        
+        {
+            "name" : "Form 3903",
+            "f-value" : "",
+            "i-value" : ""
+        },        
+        {
+            "name" : "Form 4136",
+            "f-value" : "",
+            "i-value" : ""
+        },        
+        {
+            "name" : "Form 4137",
+            "f-value" : "",
+            "i-value" : ""
+        },        
+        {
+            "name" : "Form 4562",
+            "f-value" : "",
+            "i-value" : ""
+        },       
+        {
+            "name" : "Form 4684",
+            "f-value" : "",
+            "i-value" : ""
+        },        
+        {
+            "name" : "Form 4797",
+            "f-value" : "",
+            "i-value" : ""
+        },        
+        {
+            "name" : "Form 4835",
+            "f-value" : "",
+            "i-value" : ""
+        },        
+        {
+            "name" : "Form 4868",
+            "f-value" : "",
+            "i-value" : ""
+        },        
+        {
+            "name" : "Form 4952",
+            "f-value" : "",
+            "i-value" : ""
+        },        
+        {
+            "name" : "Form 5329",
+            "f-value" : "",
+            "i-value" : ""
+        },
+        {
+            "name" : "Form 5405",
+            "f-value" : "",
+            "i-value" : ""
+        },
+        {
+            "name" : "Form 5695",
+            "f-value" : "",
+            "i-value" : ""
+        },
+        {
+            "name" : "Form 6251",
+            "f-value" : "",
+            "i-value" : ""
+        },
+        {
+            "name" : "Form 6252",
+            "f-value" : "",
+            "i-value" : ""
+        },
+        {
+            "name" : "Form 6781",
+            "f-value" : "",
+            "i-value" : ""
+        }
+    ],
+    
+    "state" : [
+        {
+            "idaho" : [
+                {
+                    
+                }
+            ]
+        }
+    ] 
+}

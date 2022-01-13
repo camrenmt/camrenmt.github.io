@@ -1,19 +1,36 @@
 <!DOCTYPE html>
 <html lang=“en”>
 	<head>
+        <script src="js/main.js"></script>
 		
 	</head>
-    <header>
-
+    <header style="height:50px">
+        <span>DISCLAIMER: This site is only for the quick lookup of general forms. 
+            Not all forms shown may be valid.
+        </span>
     </header>
 	<body style="postion:relative;">
 		
         <section>
-            <select>
-                <option>Instructions</option>
-                <option>Forms</option>
-                <option>Publications</option>
+            <select id="fs-select">
+                <option value="fed">Federal</option>
+                <option value="state">State</option>
             </select>
+            <select id="form-type-select">
+                <option value="i">Instructions</option>
+                <option value="f">Forms</option>
+                <option value="p">Publications</option>
+            </select>
+            <select id="year-select">
+                <option value="21">2021</option>
+                <option value="20">2020</option>
+                <option value="19">2019</option>
+            </select>
+            <select id="form-select">
+                <option value="1040">Form 1040</option>
+                <option value="1040s1">Schedule 1 (1040)</option>
+            </select>
+            
         </section>
 	</body>
 </html>

@@ -3,7 +3,7 @@ select {
     margin: auto;
     padding: .5rem .15rem .5rem .5rem;
     border-radius: 12px;
-    overflow: hidden;
+    overflow-x: hidden;
     max-width: 175px;
 }
 
@@ -35,7 +35,7 @@ body {
 #link-button {
     border-radius: 4px;
     min-width: 125px;
-    max-width: 225px;
+    max-width: 250px;
     margin: 2rem;
     font-size: 18px;
     background-color: rgb(173, 52, 52);

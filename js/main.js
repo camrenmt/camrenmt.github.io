@@ -1,6 +1,7 @@
 var jsonData;
 var link; 
-const YEAR_CURRENT = new Date().getFullYear();
+const YEAR_CURRENT = parseInt(new Date().getFullYear()) - parseInt(1);
+const NUM_YEARS_SUPPORTED = 4;
 
 window.onload = function() {
     var fedStateSelect = document.getElementById('fs-select');
@@ -12,7 +13,10 @@ window.onload = function() {
     request.open("GET", "../json/forms.json", false);
     request.send(null);
     jsonData = JSON.parse(request.responseText);
+
+    initYears();
  
+    yearSelect.addEventListener("change", createLink);
     fedStateSelect.addEventListener("change", initStateOrFed);
     formTypeSelect.addEventListener("change", initStateOrFed);
     formSelect.addEventListener("change", createLink);
@@ -22,6 +26,20 @@ window.onload = function() {
     if (fedStateSelect.selectedOptions[0].value === "fed") fillFed;
     else if (fedStateSelect.selctedOptions[0].value === "state") fillStates;
    
+}
+
+function initYears() {
+    var yearSelect = document.getElementById('year-select');
+    for (var i = 0; i < NUM_YEARS_SUPPORTED; i++) {
+        var y = parseFloat(YEAR_CURRENT) - parseFloat(i);
+        var opt = document.createElement('option');
+        opt.classList.add('yList');
+        opt.innerText = y;
+        opt.value = y;
+        if (y == YEAR_CURRENT) { opt.selected = true; }
+        
+        yearSelect.insertBefore(opt, document.getElementById('year-select-base'));
+    }
 }
 
 function createLink() {
@@ -49,11 +67,37 @@ function createLink() {
         }
     } else if (fedState === "state") {
         var stateInd = document.getElementById('state-select').selectedOptions[0].value;
-        link = jsonData.states[stateInd]['instructions'][form][year];
+
+        if (stateInd == 0) { 
+            console.log(stateInd);
+            link = createLinkAl(stateInd, formType, form, year);
+        } else if (stateInd == 1) {
+            link = createLinkAz(stateInd, form);
+        } else if (stateInd == 2) {
+            link = createLinkAr(stateInd, formType, form, year);
+        } else if (stateInd == 3) {
+            link = createLinkCa(stateInd, formType, form, year);
+        } else if (stateInd == 4) {
+            link = createLinkCo();
+        } else if (stateInd == 5) {
+            link = createLinkCt();
+        } else if (stateInd == 6) {
+            link = createLinkDe();
+        } else if (stateInd == 7) {
+            link = createLinkDc();
+        } else if (stateInd == 8) {
+            link = createLinkGa();
+        } else if (stateInd == 9) {
+            link = createLinkHi();
+        } else if(stateInd == 10) {
+            link = createLinkId();
+        } else if(stateInd == 11) {
+            link = createLinkIl();
+        }
     }
     
     document.getElementById('link-text').innerText = link;
-    document.getElementById('link-button').innerText = "Open " + document.getElementById('form-select').selectedOptions[0].innerText;
+    document.getElementById('link-button').innerText = "Open " + year + " " + document.getElementById('form-select').selectedOptions[0].innerText;
 }
 
 function openWindow() {
@@ -82,6 +126,8 @@ function fillFedForm(type) {
         
         formSelect.insertBefore(opt, document.getElementById('form-select-base'));
     });
+
+    createLink();
 }
 
 function fillFedPub() {
@@ -94,7 +140,7 @@ function fillStates() {
     var i = 0;
     jsonData.states.forEach(e => {
         var opt = document.createElement('option');
-        opt.classList.add('fList');;
+        opt.classList.add('sList');;
         opt.innerText = e['state-name'];
         opt.value = i++;
         
@@ -105,6 +151,8 @@ function fillStates() {
 function fillStateForms() {
     var stateIndex = document.getElementById('state-select').selectedOptions[0].value;
     var formSelect = document.getElementById('form-select');
+
+    clearForms();
 
     var i = 0
     if (document.getElementById('form-type-select').selectedOptions[0].value === 'f') {
@@ -117,7 +165,7 @@ function fillStateForms() {
             formSelect.insertBefore(opt, document.getElementById('form-select-base'));
         });
     } else if (document.getElementById('form-type-select').selectedOptions[0].value === 'i') {
-        jsonData.states[stateIndex]['instructions'].forEach(e => {
+        jsonData.states[stateIndex]['forms'].forEach(e => {
             var opt = document.createElement('option');
             opt.classList.add('fList');
             opt.innerText = e.name;
@@ -126,6 +174,8 @@ function fillStateForms() {
             formSelect.insertBefore(opt, document.getElementById('form-select-base'));
         });
     }
+
+    createLink();
 }
 
 function initStateOrFed() {
@@ -148,7 +198,6 @@ function initStateOrFed() {
             stateSelect.classList.remove('d_none');
             clearForms();
         }
-        
         fillStates();
     }
 }
@@ -156,6 +205,7 @@ function initStateOrFed() {
 function clearForms() {
     var ele = document.getElementsByClassName('fList');
     while(ele[0]) { ele[0].remove(); }
+    document.getElementById('link-text').innerText = "";
 }
 
 function copyLink() {
@@ -172,3 +222,35 @@ function copyLink() {
     /* Alert the copied text */
     alert("Copied the text: " + copyText.value);
   }
+
+
+
+
+
+
+function createLinkAl(stateInd, type, form, year) {
+
+    if (type === "i") type = "instructions";
+    else if (type === "f") type = "forms";
+    return jsonData.states[stateInd][type][form][year];
+}
+
+function createLinkAz(stateInd, form) {
+    return jsonData.states[stateInd]['forms'][form]['link'];
+}
+
+function createLinkAr(stateInd, type, form, year) {
+    if (type === "i") type = "instructions";
+    else if (type === "f") type = "link";  
+
+    return "https://www.dfa.arkansas.gov/images/uploads/incomeTaxOffice/" + jsonData.states[stateInd]['forms'][form][type].replace("{year}", year);
+}
+
+function createLinkCa(stateInd, type, form, year) {
+    if (type === "i") type = "instructions";
+    else if (type === "f") type = "link"; 
+
+    console.log(stateInd, type, form, year);
+
+    return `https://www.ftb.ca.gov/forms/${year}/${year}-` + jsonData.states[stateInd]['forms'][form][type];
+}

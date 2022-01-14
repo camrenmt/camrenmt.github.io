@@ -2,20 +2,61 @@ select {
     font-size: large !important;
     margin: auto;
     padding: .5rem .15rem .5rem .5rem;
+    border-radius: 12px;
+    overflow: hidden;
+    max-width: 175px;
+}
+
+body {
+    margin: 0;
+}
+
+#header {
+    height: 120px;
+    padding: 8px;
+    background-color: rgb(4, 75, 138);
+    margin: 0 0 2rem 0;
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: white;
 }
 
 #selectors {
-    display: flex;
-    justify-content: space-evenly;
-    width: auto;
+    width: fit-content;
 }
 
 #submit-sect {
-    width: auto;
+    width: 400px;
+    display: grid;
+    padding: 1.75rem 0 0 0;
+}
+
+#link-button {
+    border-radius: 4px;
+    min-width: 125px;
+    max-width: 225px;
+    margin: 2rem;
+    font-size: 18px;
+    background-color: rgb(173, 52, 52);
+    color: white;
+}
+
+#link-text {
+    padding: 8px 4px 4px 4px;
+    width: 100%;
+    height: 36px;
+    border-radius: 4px;
+    border-color: black;
+    border-width: 2px;
+    background-color: rgb(219, 221, 223);
+    font-size: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
 }
 
 .section_wrapper {
-    padding: 0 8rem 0 8rem;
     justify-content: center;
 }
 
@@ -32,4 +73,7 @@ select {
 }
 .d_none { 
     display: none; 
+}
+.m_auto {
+    margin: auto;
 }

@@ -52,7 +52,8 @@ function createLink() {
         link = jsonData.states[stateInd]['instructions'][form][year];
     }
     
-    document.getElementById('link-button').innerText = document.getElementById('form-select').selectedOptions[0].innerText;
+    document.getElementById('link-text').innerText = link;
+    document.getElementById('link-button').innerText = "Open " + document.getElementById('form-select').selectedOptions[0].innerText;
 }
 
 function openWindow() {
@@ -156,3 +157,18 @@ function clearForms() {
     var ele = document.getElementsByClassName('fList');
     while(ele[0]) { ele[0].remove(); }
 }
+
+function copyLink() {
+    /* Get the text field */
+    var copyText = document.getElementById("myInput");
+  
+    /* Select the text field */
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); /* For mobile devices */
+  
+     /* Copy the text inside the text field */
+    navigator.clipboard.writeText(copyText.value);
+  
+    /* Alert the copied text */
+    alert("Copied the text: " + copyText.value);
+  }

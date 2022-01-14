@@ -80,7 +80,7 @@ function createLink() {
         } else if (stateInd == 4) {
             link = createLinkCo();
         } else if (stateInd == 5) {
-            link = createLinkCt();
+            link = createLinkCt(stateInd, year);
         } else if (stateInd == 6) {
             link = createLinkDe();
         } else if (stateInd == 7) {
@@ -250,7 +250,9 @@ function createLinkCa(stateInd, type, form, year) {
     if (type === "i") type = "instructions";
     else if (type === "f") type = "link"; 
 
-    console.log(stateInd, type, form, year);
-
     return `https://www.ftb.ca.gov/forms/${year}/${year}-` + jsonData.states[stateInd]['forms'][form][type];
+}
+
+function createLinkCt(stateInd, year) {
+    return jsonData.states[stateInd]['link'].replace("{year}", year)
 }

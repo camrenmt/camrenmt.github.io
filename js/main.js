@@ -64,8 +64,6 @@ function fillFed() {
     var formTypeSelect = document.getElementById('form-type-select');
     var formType = formTypeSelect.selectedOptions[0].value;
 
-    document.getElementById('state-select').classList.add('d-none');
-
     if (formType === "p") fillFedPub;
     else fillFedForm(formType);
 
@@ -133,13 +131,23 @@ function initStateOrFed() {
     var val = document.getElementById('fs-select').selectedOptions[0].value;
   
     if (val === 'fed') {
-        document.getElementById('pubs').classList.remove('d-none');
+        document.getElementById('pubs').classList.remove('d_none');
+        var stateSelect = document.getElementById('state-select-wrapper')
+        
+        if (!stateSelect.classList.contains('d_none')) {
+            stateSelect.classList.add('d_none');
+            clearForms();
+        }
         fillFed();
     } else if (val === 'state') {
-        document.getElementById('state-select').classList.remove('d-none');
-        document.getElementById('pubs').classList.add('d-none');
+        var stateSelect = document.getElementById('state-select-wrapper')
+        document.getElementById('pubs').classList.add('d_none');
         
-        clearForms();
+        if (stateSelect.classList.contains('d_none')) {
+            stateSelect.classList.remove('d_none');
+            clearForms();
+        }
+        
         fillStates();
     }
 }

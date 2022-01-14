@@ -2,47 +2,59 @@
 <html lang=“en”>
 	<head>
         <script src="js/main.js"></script>
-        <style>
-            .d-none { display: none }
-        </style>
+        <link rel="stylesheet" href="css/style1.css"></style>
     </head>
     <header style="height:50px">
         <span>UNDER CONSTRUCTION
         </span>
     </header>
 	<body style="postion:relative;">
-		
-        <section id="selectors">
-            <select id="fs-select">
-                <option selected value="fed">Federal</option>
-                <option value="state">State</option>
-            </select>
-            <select id="form-type-select">
-                <option disabled selected>Choose Form Type</option>
-                <option id="inst" value="i">Instructions</option>
-                <option id="forms" value="f">Forms</option>
-                <option id="pubs" value="p">Publications</option>
-            </select>
-            <select id="year-select">
-                <option value="2021">2021</option>
-                <option value="2020">2020</option>
-                <option value="2019">2019</option>
-            </select>
-            <select id="state-select" class="d-none">
-                <option disabled selected>Choose a State</option>
-                <option hidden id="state-select-base"></option>
-            </select>
-            <select id="form-select">
-                <option disabled selected>Choose a Form</option>
-                <option hidden id="form-select-base"></option>
-            </select>
-
-            <div>
-                <button id="link-button">
-                    Open Form
-                </button>
-            </div>
+		<div class="section_wrapper">
+            <section id="selectors" class="d_flex">
+                <div class="select_wrapper">
+                    <select id="year-select">
+                        <option value="2021">2021</option>
+                        <option value="2020">2020</option>
+                        <option value="2019">2019</option>
+                    </select>
+                </div>
+                <div class="select_wrapper">
+                    <select id="fs-select">
+                        <option selected value="fed">Federal</option>
+                        <option value="state">State</option>
+                    </select>
+                </div>
+                <div class="select_wrapper">
+                    <select id="form-type-select">
+                        <option disabled selected>Choose Form Type</option>
+                        <option id="inst" value="i">Instructions</option>
+                        <option id="forms" value="f">Forms</option>
+                        <option id="pubs" value="p">Publications</option>
+                    </select>
+                </div>
+                <div id="state-select-wrapper" class="select_wrapper d_none">
+                    <select id="state-select">
+                        <option disabled selected>Choose a State</option>
+                        <option hidden id="state-select-base"></option>
+                    </select>
+                </div>
+                <div class="select_wrapper">
+                    <select id="form-select">
+                        <option disabled selected>Choose a Form</option>
+                        <option hidden id="form-select-base"></option>
+                    </select>
+                </div>
+            </section>
+        </div>
+        <div class="section_wrapper d_flex">
+            <section id="submit-sect">
+                <div>
+                    <button id="link-button">
+                        Open Form
+                    </button>
+                </div>
             
-        </section>
+            </section>
+        </div>
 	</body>
 </html>

@@ -1,0 +1,35 @@
+select {
+    font-size: large !important;
+    margin: auto;
+    padding: .5rem .15rem .5rem .5rem;
+}
+
+#selectors {
+    display: flex;
+    justify-content: space-evenly;
+    width: auto;
+}
+
+#submit-sect {
+    width: auto;
+}
+
+.section_wrapper {
+    padding: 0 8rem 0 8rem;
+    justify-content: center;
+}
+
+.selector_wrapper {
+
+}
+
+.select_wrapper {
+    margin: 4px;
+}
+
+.d_flex {
+    display: flex;
+}
+.d_none { 
+    display: none; 
+}

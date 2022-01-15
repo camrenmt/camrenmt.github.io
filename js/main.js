@@ -53,8 +53,7 @@ function createLink() {
             var formName = document.getElementById('form-select').selectedOptions[0].innerText;
             form = jsonData.federal[form]['i-value'];
         } else if (formType === 'p') {
-            //form = jsonData.federal[form]['p-value'];
-            //link = `https://www.irs.gov/pub/irs-pdf/${form}.pdf`;
+            form = jsonData.publications[form]['p-value'];
         }
         else if (formType === 'f') {
             form = jsonData.federal[form]['f-value'];
@@ -69,7 +68,6 @@ function createLink() {
         var stateInd = document.getElementById('state-select').selectedOptions[0].value;
 
         if (stateInd == 0) { 
-            console.log(stateInd);
             link = createLinkAl(stateInd, formType, form, year);
         } else if (stateInd == 1) {
             link = createLinkAz(stateInd, form);
@@ -78,39 +76,72 @@ function createLink() {
         } else if (stateInd == 3) {
             link = createLinkCa(stateInd, formType, form, year);
         } else if (stateInd == 4) {
-            link = createLinkCo();
+            link = createLinkCo(stateInd, year);
         } else if (stateInd == 5) {
             link = createLinkCt(stateInd, year);
         } else if (stateInd == 6) {
-            link = createLinkDe();
+            link = createLinkDe(stateInd, year);
         } else if (stateInd == 7) {
-            link = createLinkDc();
+            link = createLinkDc(stateInd, year);
         } else if (stateInd == 8) {
-            link = createLinkGa();
+            link = createLinkGa(stateInd, form);
         } else if (stateInd == 9) {
-            link = createLinkHi();
+            link = createLinkHi(stateInd, formType, form, year);
         } else if(stateInd == 10) {
-            link = createLinkId();
+            link = createLinkId(stateInd, year);
         } else if(stateInd == 11) {
-            link = createLinkIl();
-        }
+            link = createLinkIl(stateInd, year);
+        } else if(stateInd == 12) {
+            link = createLinkIn(stateInd, year);
+        } else if(stateInd == 13) {
+            link = createLinkIa(stateInd, year);
+        } else if(stateInd == 14) {
+            link = createLinkKs(stateInd, formType, form, year);
+        } else if(stateInd == 15) {
+            link = createLinkKy(stateInd);
+        } else if(stateInd == 16) {
+            link = createLinkLa(stateInd);
+        } else if(stateInd == 17) {
+            link = createLinkMe(stateInd, year);
+        } else if(stateInd == 18) {
+            link = createLinkMd(stateInd, formType, form, year);
+        } else if(stateInd == 19) {
+            link = createLinkMa(stateInd, formType, form, year);
+        } else if(stateInd == 20) {
+            link = createLinkMi(stateInd);
+        } else if(stateInd == 21) {
+            link = createLinkMn(stateInd);
+        } else if(stateInd == 22) {
+            link = createLinkMs(stateInd);
+        } else if(stateInd == 23) {
+            link = createLinkMo(stateInd, formType, form, year);
+        } else if(stateInd == 24) {
+            link = createLinkMt(stateInd, form);
+        } else if(stateInd == 25) {
+            link = createLinkNe(stateInd, form, year);
+        } else if(stateInd == 26) {
+            link = createLinkNj(stateInd, form, year);
+        } else if(stateInd == 27) {
+            link = createLinkNm(stateInd, form, year);
+        } else if(stateInd == 28) {
+            link = createLinkNy(stateInd, form, year);
+        } 
     }
     
     document.getElementById('link-text').innerText = link;
-    document.getElementById('link-button').innerText = "Open " + year + " " + document.getElementById('form-select').selectedOptions[0].innerText;
+    document.getElementById('button-text').innerText = "Open " + year + " " + document.getElementById('form-select').selectedOptions[0].innerText;
 }
 
 function openWindow() {
     createLink();
-    window.open(link, '_blank', 'location=yes,height=620,width=560,scrollbars=yes,status=yes');
+    window.open(link, '_blank', 'location=yes,height=700,width=600,scrollbars=yes,status=yes');
 }
 
 function fillFed() {
     var formTypeSelect = document.getElementById('form-type-select');
     var formType = formTypeSelect.selectedOptions[0].value;
 
-    if (formType === "p") fillFedPub;
-    else fillFedForm(formType);
+    fillFedForm(formType);
 
 }
 
@@ -118,24 +149,36 @@ function fillFedForm(type) {
     var formSelect = document.getElementById('form-select');
 
     var i = 0
-    jsonData.federal.forEach(e => {
-        var opt = document.createElement('option');
-        opt.classList.add('fList');
-        opt.innerText = e.name;
-        opt.value = i++;
-        
-        formSelect.insertBefore(opt, document.getElementById('form-select-base'));
-    });
+    if (type ==='i' || type === 'f') {
+        jsonData.federal.forEach(e => {
+            var opt = document.createElement('option');
+            opt.classList.add('fList');
+            opt.innerText = e.name;
+            opt.value = i++;
+            
+            formSelect.insertBefore(opt, document.getElementById('form-select-base'));
+        });
+    } else if (type === 'p') {
+        jsonData.publications.forEach(e => {
+            var opt = document.createElement('option');
+            opt.classList.add('fList');
+            opt.innerText = e.name;
+            opt.value = i++;
+            
+            formSelect.insertBefore(opt, document.getElementById('form-select-base'));
+        });
+    } 
 
     createLink();
 }
 
-function fillFedPub() {
-    clearForms();
-}
-
 function fillStates() {
     var stateSelect = document.getElementById('state-select');
+
+    var ele = document.getElementsByClassName('sList');
+    while(ele[0]) { ele[0].remove(); }
+    document.getElementById('link-text').innerText = "";
+
 
     var i = 0;
     jsonData.states.forEach(e => {
@@ -151,8 +194,6 @@ function fillStates() {
 function fillStateForms() {
     var stateIndex = document.getElementById('state-select').selectedOptions[0].value;
     var formSelect = document.getElementById('form-select');
-
-    clearForms();
 
     var i = 0
     if (document.getElementById('form-type-select').selectedOptions[0].value === 'f') {
@@ -185,20 +226,20 @@ function initStateOrFed() {
         document.getElementById('pubs').classList.remove('d_none');
         var stateSelect = document.getElementById('state-select-wrapper')
         
-        if (!stateSelect.classList.contains('d_none')) {
+        if (!stateSelect.classList.contains('d_none') || document.getElementById('form-type-select').selectedOptions[0].value === "p") {
             stateSelect.classList.add('d_none');
-            clearForms();
+            clearForms;
+            fillFed();
         }
-        fillFed();
     } else if (val === 'state') {
         var stateSelect = document.getElementById('state-select-wrapper')
         document.getElementById('pubs').classList.add('d_none');
         
         if (stateSelect.classList.contains('d_none')) {
             stateSelect.classList.remove('d_none');
-            clearForms();
+            clearForms;
+            fillStates();
         }
-        fillStates();
     }
 }
 
@@ -229,7 +270,6 @@ function copyLink() {
 
 
 function createLinkAl(stateInd, type, form, year) {
-
     if (type === "i") type = "instructions";
     else if (type === "f") type = "forms";
     return jsonData.states[stateInd][type][form][year];
@@ -253,6 +293,143 @@ function createLinkCa(stateInd, type, form, year) {
     return `https://www.ftb.ca.gov/forms/${year}/${year}-` + jsonData.states[stateInd]['forms'][form][type];
 }
 
+function createLinkCo(stateInd, year) {
+    return jsonData.states[stateInd]['link'].replace("{year}", year);
+}
+
 function createLinkCt(stateInd, year) {
-    return jsonData.states[stateInd]['link'].replace("{year}", year)
+    if (year == YEAR_CURRENT) year = "Current-Year";
+    return jsonData.states[stateInd]['link'].replace("{year}", year);
+}
+
+function createLinkDc(stateInd, year) {
+    return jsonData.states[stateInd]['link'].replace("{year}", year);
+}
+
+function createLinkDe(stateInd, year) {
+    var linkEnd = "";
+    if (year != YEAR_CURRENT) {
+        var str = jsonData.states[stateInd]['link'].replace("{year}", year);
+        link = str.replace("{year+1}", parseFloat(year) + parseFloat1(1)) +  "-personal-income-tax-forms/";
+    }
+    return "https://revenue.delaware.gov/personal-income-tax-forms/" + linkEnd;
+}
+
+function createLinkGa(stateInd, form) {
+    var link = jsonData.states[stateInd]['link'];
+    
+    var formName = jsonData.states[stateInd]['forms'][form]['link'].replace('{yearcurr}', YEAR_CURRENT);
+
+    return link.replace("{form}", formName);
+}
+
+function createLinkHi(stateInd, type, form, year) {
+    var link = jsonData.states[stateInd]['link'].replace("{year}", year);
+
+    if (type === "i") type = "instructions";
+    else if (type === "f") type = "link";
+    else return; 
+    
+    var formName = jsonData.states[stateInd]['forms'][form][type];
+
+    return link.replace("{form}", formName);
+}
+
+function createLinkId(stateInd, year) {
+    if (year == YEAR_CURRENT) year = "9999";
+    return jsonData.states[stateInd]['link'].replace("{year}", year);
+}
+
+function createLinkIl(stateInd, year) {
+    if (year == YEAR_CURRENT) year = "CurrentYear";
+    return jsonData.states[stateInd]['link'].replace("{year}", year);
+}
+
+function createLinkIn(stateInd, year) {
+    return jsonData.states[stateInd]['link'].replace("{year}", year);
+}
+
+function createLinkIa(stateInd) {
+    return jsonData.states[stateInd]['link'];
+}
+
+function createLinkKs(stateInd, type, form, year) {
+    var link = jsonData.states[stateInd]['link'].replace("{yr}", year.slice(-2));
+    var form;
+    if (type === "i") {
+        form = jsonData.states[stateInd]['instructions'];
+    } else if (type === "f") {
+        form = jsonData.states[stateInd]['forms'][form]['link'];
+    }
+    return link.replace("{form}", form);
+}
+
+function createLinkKy(stateInd) {
+    return jsonData.states[stateInd]['link'];
+}
+
+function createLinkLa(stateInd) {
+    return jsonData.states[stateInd]['link'];
+}
+
+function createLinkMe(stateInd, year) {
+    return jsonData.states[stateInd]['link'].replace("{year}", year);
+}
+
+function createLinkMd(stateInd, type, form, year) {
+    var link = jsonData.states[stateInd]['link'].replace("{yr}", year.slice(-2));
+    var form;
+    if (type === "i") {
+        form = jsonData.states[stateInd]['forms'][form]['instructions'];
+    } else if (type === "f") {
+        form = jsonData.states[stateInd]['forms'][form]['link'];
+    }
+    return link.replace("{form}", form);
+}
+
+function createLinkMa(stateInd, type, form, year) {
+    var link = jsonData.states[stateInd]['link'].replace("{year}", year);
+
+    if (type === "i") type = "instructions";
+    else if (type === "f") type = "link";
+    else return; 
+    
+    var formName = jsonData.states[stateInd]['forms'][form][type];
+
+    return link.replace("{form}", formName);
+}
+
+function createLinkMi(stateInd) {
+    return jsonData.states[stateInd]['link'];
+}
+
+function createLinkMn(stateInd) {
+    return jsonData.states[stateInd]['link'];
+}
+
+function createLinkMs(stateInd) {
+    return jsonData.states[stateInd]['link'];
+}
+
+function createLinkMo(stateInd, type, form, year) {
+    if (form == 6) {
+        return 'https://dor.mo.gov/forms/5695.pdf'; 
+    }
+
+    var link = jsonData.states[stateInd]['link'].replace("{year}", year);
+
+    if (type === "i") type = "instructions";
+    else if (type === "f") type = "link";
+    else return; 
+    
+    var formName = jsonData.states[stateInd]['forms'][form][type];
+
+    return link.replace("{form}", formName);
+}
+
+function createLinkMt(stateInd, form) {
+    var link = jsonData.states[stateInd]['link'];
+    var formName = jsonData.states[stateInd]['forms'][form]['link'];
+
+    return link.replace("{form}", formName);
 }

@@ -226,6 +226,405 @@
             "i-value" : "i6781"
         }
     ],
+
+    "publications" : [
+        {
+            "name" : "Publication 3, Armed Forces' Tax Guide",
+            "p-value" : "p3"
+        },
+        {
+            "name" : "Publication 15, (Circular E), Employer's Tax Guide",
+            "p-value" : "p15"
+        },
+        {
+            "name" : "Publication 15-A, Employer's Supplemental Tax Guide",
+            "p-value" : "p15a"
+        },
+        {
+            "name" : "Publication 15-B, Employer's Tax Guide to Fringe Benefits",
+            "p-value" : "p15b"
+        },
+        {
+            "name" : "Publication 15-T, Federal Income Tax Withholding Methods",
+            "p-value" : "p15t"
+        },
+        {
+            "name" : "Publication 17, Your Federal Income Tax",
+            "p-value" : "p17"
+        },
+        {
+            "name" : "Publication 51, (Circular A), Agricultural Employer's Tax Guide",
+            "p-value" : "p51"
+        },
+        {
+            "name" : "Publication 54, Tax Guide for U.S. Citizens and Resident Aliens Abroad",
+            "p-value" : "p54"
+        },
+        {
+            "name" : "Publication 225, Farmer's Tax Guide",
+            "p-value" : "p225"
+        },
+        {
+            "name" : "Publication 334, Tax Guide for Small Business",
+            "p-value" : "p334"
+        },
+        {
+            "name" : "Publication 463, Travel, Gift, and Car Expenses",
+            "p-value" : "p463"
+        },
+        {
+            "name" : "Publication 501, Dependents, Standard Deduction, and Filing Information",
+            "p-value" : "p501"
+        },
+        {
+            "name" : "Publication 502, Medical and Dental Expenses",
+            "p-value" : "p502"
+        },
+        {
+            "name" : "Publication 503, Child and Dependent Care Expenses",
+            "p-value" : "p503"
+        },
+        {
+            "name" : "Publication 504, Divorced or Separated Individuals",
+            "p-value" : "p504"
+        },
+        {
+            "name" : "Publication 505, Tax Withholding and Estimated Tax",
+            "p-value" : "p505"
+        },
+        {
+            "name" : "Publication 509, Tax Calendars",
+            "p-value" : "p509"
+        },
+        {
+            "name" : "Publication 510, Excise Taxes",
+            "p-value" : "p510"
+        },
+        {
+            "name" : "Publication 514, Foreign Tax Credit for Individuals",
+            "p-value" : "p514"
+        },
+        {
+            "name" : "Publication 515, Withholding of Tax on Nonresident Aliens and Foreign Entities",
+            "p-value" : "p515"
+        },
+        {
+            "name" : "Publication 516, U.S. Government Civilian Employees Stationed Abroad",
+            "p-value" : "p516"
+        },
+        {
+            "name" : "Publication 517, Social Security and Other Information for Members of the Clergy and Religious Workers",
+            "p-value" : "p517"
+        },
+        {
+            "name" : "Publication 519, U.S. Tax Guide for Aliens",
+            "p-value" : "p519"
+        },
+        {
+            "name" : "Publication 523, Selling Your Home",
+            "p-value" : "p529"
+        },
+        {
+            "name" : "Publication 524, Credit for the Elderly or the Disabled",
+            "p-value" : "p524"
+        },
+        {
+            "name" : "Publication 525, Taxable and Nontaxable Income",
+            "p-value" : "p525"
+        },
+        {
+            "name" : "Publication 526, Charitable Contributions",
+            "p-value" : "p526"
+        },
+        {
+            "name" : "Publication 527, Residential Rental Property",
+            "p-value" : "p527"
+        },
+        {
+            "name" : "Publication 529, Miscellaneous Deductions",
+            "p-value" : "p529"
+        },
+        {
+            "name" : "Publication 530, Tax Information for Homeowners",
+            "p-value" : "p530"
+        },
+        {
+            "name" : "Publication 531, Reporting Tip Income",
+            "p-value" : "p531"
+        },
+        {
+            "name" : "Publication 534, Depreciating Property Placed in Service Before 1987",
+            "p-value" : "p534"
+        },
+        {
+            "name" : "Publication 535, Business Expenses",
+            "p-value" : "p535"
+        },
+        {
+            "name" : "Publication 536, Net Operating Losses (NOLs) for Individuals, Estates, and Trusts",
+            "p-value" : "p536"
+        },
+        {
+            "name" : "Publication 537, Installment Sales",
+            "p-value" : "p537"
+        },
+        {
+            "name" : "Publication 538, Accounting Periods and Methods",
+            "p-value" : "p538"
+        },
+        {
+            "name" : "Publication 541, Partnerships",
+            "p-value" : "p541"
+        },
+        {
+            "name" : "Publication 542, Corporations",
+            "p-value" : "p542"
+        },
+        {
+            "name" : "Publication 544, Sales and Other Dispositions of Assets",
+            "p-value" : "p544"
+        },
+        {
+            "name" : "Publication 547, Casualties, Disasters, and Thefts",
+            "p-value" : "p547"
+        },
+        {
+            "name" : "Publicación 547(SP), Hechos Fortuitos, Desastres y Robos",
+            "p-value" : "p547sp"
+        },
+        {
+            "name" : "Publication 550, Investment Income and Expenses",
+            "p-value" : "p550"
+        },
+        {
+            "name" : "Publication 551, Basis of Assets",
+            "p-value" : "p551"
+        },
+        {
+            "name" : "Publication 554, Tax Guide for Seniors",
+            "p-value" : "p554"
+        },
+        {
+            "name" : "Publication 555, Community Property",
+            "p-value" : "p555"
+        },
+        {
+            "name" : "Publication 556, Examination of Returns, Appeal Rights, and Claims for Refund",
+            "p-value" : "p556"
+        },
+        {
+            "name" : "Publication 557, Tax-Exempt Status for Your Organization",
+            "p-value" : "p557"
+        },
+        {
+            "name" : "Publication 559, Survivors, Executors, and Administrators",
+            "p-value" : "p559"
+        },
+        {
+            "name" : "Publication 560, Retirement Plans for Small Business",
+            "p-value" : "p560"
+        },
+        {
+            "name" : "Publication 561, Determining the Value of Donated Property",
+            "p-value" : "p561"
+        },
+        {
+            "name" : "Publication 570, Tax Guide for Individuals With Income From U.S. Possessions",
+            "p-value" : "p570"
+        },
+        {
+            "name" : "Publication 571, Tax-Sheltered Annuity Plans (403(b) Plans)",
+            "p-value" : "p571"
+        },
+        {
+            "name" : "Publication 575, Pension and Annuity Income",
+            "p-value" : "p545"
+        },
+        {
+            "name" : "Publication 583, Starting a Business and Keeping Records",
+            "p-value" : "p583"
+        },
+        {
+            "name" : "Publication 584, Casualty, Disaster, and Theft Loss Workbook",
+            "p-value" : "p584"
+        },
+        {
+            "name" : "Publication 584-B, Business Casualty, Disaster, and Theft Loss Workbook",
+            "p-value" : "p584b"
+        },
+        {
+            "name" : "Publication 584SP, Registro de Pérdidas por Hechos Fortuitos (Imprevistos), Desastres y Robos (Propiedad de Uso Personal)",
+            "p-value" : "p584sp"
+        },
+        {
+            "name" : "Publication 587, Business Use of Your Home",
+            "p-value" : "p587"
+        },
+        {
+            "name" : "Publication 590-A, Contributions to Individual Retirement Arrangements (IRAs)",
+            "p-value" : "p590a"
+        },
+        {
+            "name" : "Publication 590-B, Distributions from Individual Retirement Arrangements (IRAs)",
+            "p-value" : "p590n"
+        },
+        {
+            "name" : "Publication 595, Capital Construction Fund for Commercial Fishermen",
+            "p-value" : "p595"
+        },
+        {
+            "name" : "Publication 596, Earned Income Credit (EIC)",
+            "p-value" : "p596"
+        },
+        {
+            "name" : "Publicación 596SP, Crédito por Ingreso del Trabajo (EIC)",
+            "p-value" : "p596sp"
+        },
+        {
+            "name" : "Publication 597, Information on the United States–Canada Income Tax Treaty",
+            "p-value" : "p597"
+        },
+        {
+            "name" : "Publication 598, Tax on Unrelated Business Income of Exempt Organizations",
+            "p-value" : "p598"
+        },
+        {
+            "name" : "Publication 600, State and Local General Sales Taxes",
+            "p-value" : "p600"
+        },
+        {
+            "name" : "Publication 721, Tax Guide to U.S. Civil Service Retirement Benefits",
+            "p-value" : "p721"
+        },
+        {
+            "name" : "Publication 901, U.S. Tax Treaties",
+            "p-value" : "p901"
+        },
+        {
+            "name" : "Publication 907, Tax Highlights for Persons With Disabilities",
+            "p-value" : "p907"
+        },
+        {
+            "name" : "Publication 908, Bankruptcy Tax Guide",
+            "p-value" : "p908"
+        },
+        {
+            "name" : "Publication 915, Social Security and Equivalent Railroad Retirement Benefits",
+            "p-value" : "p915"
+        },
+        {
+            "name" : "Publication 925, Passive Activity and At-Risk Rules",
+            "p-value" : "p925"
+        },
+        {
+            "name" : "Publication 926, Household Employer's Tax Guide",
+            "p-value" : "p926"
+        },
+        {
+            "name" : "Publication 929, Tax Rules for Children and Dependents",
+            "p-value" : "p929"
+        },
+        {
+            "name" : "Publication 936, Home Mortgage Interest Deduction",
+            "p-value" : "p936"
+        },
+        {
+            "name" : "Publication 938, Real Estate Mortgage Investment Conduits (REMICs) Reporting Information",
+            "p-value" : "p938"
+        },
+        {
+            "name" : "Publication 939, General Rule for Pensions and Annuities",
+            "p-value" : "p939"
+        },
+        {
+            "name" : "Publication 946, How To Depreciate Property",
+            "p-value" : "p946"
+        },
+        {
+            "name" : "Publication 947, Practice Before the IRS and Power of Attorney",
+            "p-value" : "p947"
+        },
+        {
+            "name" : "Publication 957, Reporting Back Pay and Special Wage Payments to the Social Security Administration",
+            "p-value" : "p957"
+        },
+        {
+            "name" : "Publication 969, Health Savings Accounts and Other Tax-Favored Health Plans",
+            "p-value" : "p986"
+        },
+        {
+            "name" : "Publication 970, Tax Benefits for Education",
+            "p-value" : "p970"
+        },
+        {
+            "name" : "Publication 971, Innocent Spouse Relief",
+            "p-value" : "p971"
+        },
+        {
+            "name" : "Publication 972, Child Tax Credit and Credit for Other Dependents",
+            "p-value" : "p972"
+        },
+        {
+            "name" : "Publicación 972(SP), Crédito Tributario por Hijos y Crédito por Otros Dependientes",
+            "p-value" : "p972sp"
+        },
+        {
+            "name" : "Publication 974, Premium Tax Credit (PTC)",
+            "p-value" : "p974"
+        },
+        {
+            "name" : "Publication 976, Disaster Relief",
+            "p-value" : "p976"
+        },
+        {
+            "name" : "Publication 976(SP), Alivio en Caso de Desastres",
+            "p-value" : "p976sp"
+        },
+        {
+            "name" : "Publication 1212, Guide to Original Issue Discount (OID) Instruments",
+            "p-value" : "p1212"
+        },
+        {
+            "name" : "Publication 1544, Reporting Cash Payments of Over $10,000",
+            "p-value" : "p1544"
+        },
+        {
+            "name" : "Publication 1544(SP), Informe de Pagos en Efectivo en Exceso de $10,000",
+            "p-value" : "p1544"
+        },
+        {
+            "name" : "Publication 3402, Taxation of Limited Liability Companies",
+            "p-value" : "p3402"
+        },
+        {
+            "name" : "Publication 3920, Tax Relief for Victims of Terrorist Attacks",
+            "p-value" : "p3920"
+        },
+        {
+            "name" : "Publication 3991, Highlights of the Job Creation and Worker Assistance Act of 2002",
+            "p-value" : "p3991"
+        },
+        {
+            "name" : "Publication 4492, Information for Taxpayers Affected by Hurricanes Katrina, Rita, and Wilma",
+            "p-value" : "p4492"
+        },
+        {
+            "name" : "Publication 4492-A, Information for Taxpayers Affected by the May 4, 2007, Kansas Storms and Tornadoes",
+            "p-value" : "p4492a"
+        },
+        {
+            "name" : "Publication 4492-B, Information for Affected Taxpayers in the Midwestern Disaster Areas",
+            "p-value" : "p4492b"
+        },
+        {
+            "name" : "Publicación 4492(SP), Información para los Contribuyentes Afectados por los Huracanes Katrina, Rita y Wilma",
+            "p-value" : "p4492sp"
+        },
+        {
+            "name" : "Publication 4681, Canceled Debts, Foreclosures, Repossessions, and Abandonments",
+            "p-value" : "p4681"
+        }
+    ],
     
     "states" : [
         {
@@ -804,7 +1203,6 @@
                 },
                 {
                     "name" : "Schedule W-2",
-                    "link" : "",
                     "instructions" : ""
                 },
                 {
@@ -976,114 +1374,61 @@
         },
         {
             "state-name" : "Colorado",
+            "link" : "https://tax.colorado.gov/{year}-individual-income-tax-forms",
             "forms" : [
                 {	
-                    "name" : "Form 104",
-                    "2021" : "",
-                    "2020" : "",
-                    "2019" : ""
+                    "name" : "Form 104"
                 },
                 {	
-                    "name" : "Form 104X (amended)",
-                    "2021" : "",
-                    "2020" : "",
-                    "2019" : ""
+                    "name" : "Form 104X (amended)"
                 },
                 {	
-                    "name" : "Form 104AD",
-                    "2021" : "",
-                    "2020" : "",
-                    "2019" : ""
+                    "name" : "Form 104AD"
                 },
                 {	
-                    "name" : "Form 104US",
-                    "2021" : "",
-                    "2020" : "",
-                    "2019" : ""
+                    "name" : "Form 104US"
                 },
                 {	
-                    "name" : "Form 104PN",
-                    "2021" : "",
-                    "2020" : "",
-                    "2019" : ""
+                    "name" : "Form 104PN"
                 },
                 {	
-                    "name" : "Form 104AMT",
-                    "2021" : "",
-                    "2020" : "",
-                    "2019" : ""
+                    "name" : "Form 104AMT"
                 },
                 {	
-                    "name" : "Form 104CR",
-                    "2021" : "",
-                    "2020" : "",
-                    "2019" : ""
+                    "name" : "Form 104CR"
                 },
                 {	
-                    "name" : "Form 104EE",
-                    "2021" : "",
-                    "2020" : "",
-                    "2019" : ""
+                    "name" : "Form 104EE"
                 },
                 {	
-                    "name" : "Form 104TN",
-                    "2021" : "",
-                    "2020" : "",
-                    "2019" : ""
+                    "name" : "Form 104TN"
                 },
                 {	
-                    "name" : "Form 104CH",
-                    "2021" : "",
-                    "2020" : "",
-                    "2019" : ""
+                    "name" : "Form 104CH"
                 },
                 {	
-                    "name" : "DR 0347",
-                    "2021" : "",
-                    "2020" : "",
-                    "2019" : ""
+                    "name" : "DR 0347"
                 },
                 {	
-                    "name" : "DR 1330",
-                    "2021" : "",
-                    "2020" : "",
-                    "2019" : ""
+                    "name" : "DR 1330"
                 },
                 {	
-                    "name" : "DR 0350",
-                    "2021" : "",
-                    "2020" : "",
-                    "2019" : ""
+                    "name" : "DR 0350"
                 },
                 {	
-                    "name" : "DR 0375",
-                    "2021" : "",
-                    "2020" : "",
-                    "2019" : ""
+                    "name" : "DR 0375"
                 },
                 {	
-                    "name" : "DR 104EP",
-                    "2021" : "",
-                    "2020" : "",
-                    "2019" : ""
+                    "name" : "DR 104EP"
                 },
                 {	
-                    "name" : "DR 1778",
-                    "2021" : "",
-                    "2020" : "",
-                    "2019" : ""
+                    "name" : "DR 1778"
                 },
                 {	
-                    "name" : "DR 8453",
-                    "2021" : "",
-                    "2020" : "",
-                    "2019" : ""
+                    "name" : "DR 8453"
                 },
                 {	
-                    "name" : "DR 0900",
-                    "2021" : "",
-                    "2020" : "",
-                    "2019" : ""
+                    "name" : "DR 0900"
                 }
             ]
         },
@@ -1092,200 +1437,1317 @@
             "link" : "https://portal.ct.gov/DRS/DRS-Forms/{year}-Forms/Individual-Income-Tax-Forms",
             "forms" : [
                 {	
-                    "name" : "Form CT-1040",
-                    "link" : ""
+                    "name" : "Form CT-1040"
                 },
                 {
-                    "name" : "Form CT-1040NR/PY",
-                    "link" : ""
+                    "name" : "Form CT-1040NR/PY"
                 },
                 {
-                    "name" : "Schedule CT-SI",
-                    "link" : ""
+                    "name" : "Schedule CT-SI"
                 },
                 {
-                    "name" : "Schedule CT-1040AW",
-                    "link" : ""
+                    "name" : "Schedule CT-1040AW"
                 },
                 {
-                    "name" : "Schedule CT-1040BA",
-                    "link" : ""
+                    "name" : "Schedule CT-1040BA"
                 },
                 {
-                    "name" : "Form CT-1040X",
-                    "link" : ""
+                    "name" : "Form CT-1040X"
                 },
                 {
-                    "name" : "Form CT-1040V",
-                    "link" : ""
+                    "name" : "Form CT-1040V"
                 },
                 {
-                    "name" : "Form CT-1040ES",
-                    "link" : ""
+                    "name" : "Form CT-1040ES"
                 },
                 {
-                    "name" : "Form CT-6251",
-                    "link" : ""
+                    "name" : "Form CT-6251"
                 },
                 {
-                    "name" : "Schedule CT-1040WH",
-                    "link" : ""
+                    "name" : "Schedule CT-1040WH"
                 },
                 {
-                    "name" : "Schedule CT-EITC",
-                    "link" : ""
+                    "name" : "Schedule CT-EITC"
                 },
                 {
-                    "name" : "Form CT-IT",
-                    "link" : ""
+                    "name" : "Form CT-IT"
                 },
                 {
-                    "name" : "Form CT-2210",
-                    "link" : ""
+                    "name" : "Form CT-2210"
                 }
             ]
         },
         {
             "state-name" : "Delaware",
+            "link" : "prior-year-personal-income-tax-forms/{year}-{year+1}",
             "forms" : [
+                {	
+                    "name" : "Form PIT-RES"
+                },
                 {
-                    
+                    "name" : "Form PIT-NON"
+                },
+                {
+                    "name" : "Form PIT-RSS"
+                },
+                {
+                    "name" : "Form PIT-NNS"
+                },
+                {
+                    "name" : "Form PIT-RSA"
+                },
+                {
+                    "name" : "Form PIT-NSA"
+                },
+                {
+                    "name" : "Form 200V"
+                },
+                {
+                    "name" : "Form PIT-EST"
                 }
             ]
         },
         {
             "state-name" : "District of Columbia",
+            "link" : "https://otr.cfo.dc.gov/page/individual-income-tax-forms",
             "forms" : [
+                {	
+                    "name" : "Form D-40"
+                },
                 {
-                    
+                    "name" : "Schedule S"
+                },
+                {
+                    "name" : "Schedule H"
+                },
+                {
+                    "name" : "Schedule U"
+                },
+                {
+                    "name" : "Schedule I"
+                },
+                {
+                    "name" : "Schedule N"
+                },
+                {
+                    "name" : "Schedule ELC"
+                },
+                {
+                    "name" : "Schedule HSR"
+                },
+                {
+                    "name" : "Form D-2440"
+                },
+                {
+                    "name" : "Form D-2441"
+                },
+                {
+                    "name" : "Form D-40B"
+                },
+                {
+                    "name" : "Form D-40P"
+                },
+                {
+                    "name" : "Form D-40ES"
+                },
+                {
+                    "name" : "Form D-40E"
+                },
+                {
+                    "name" : "AFV Credit"
                 }
             ]
         },
         {
             "state-name" : "Georgia",
+            "link" : "https://dor.georgia.gov/{form}",
             "forms" : [
+                {	
+                    "name" : "Form 500",
+                    "link" : "500-individual-income-tax-return-4"
+                },
                 {
-                    
+                    "name" : "Form 500 Schedule 1",
+                    "link" : "500-individual-income-tax-return-4"
+                },
+                {
+                    "name" : "Form 500 Schedule 2",
+                    "link" : "500-individual-income-tax-return-4"
+                },
+                {
+                    "name" : "Form 500 Schedule 2B",
+                    "link" : "500-individual-income-tax-return-4"
+                },
+                {
+                    "name" : "Form 500 Schedule 3",
+                    "link" : "500-individual-income-tax-return-4"
+                },
+                {
+                    "name" : "Form IND-CR 201",
+                    "link" : "500-individual-income-tax-return-4"
+                },
+                {
+                    "name" : "Form IND-CR 202",
+                    "link" : "500-individual-income-tax-return-4"
+                },
+                {
+                    "name" : "Form IND-CR 203",
+                    "link" : "500-individual-income-tax-return-4"
+                },
+                {
+                    "name" : "Form IND-CR 204",
+                    "link" : "500-individual-income-tax-return-4"
+                },
+                {
+                    "name" : "Form IND-CR 206",
+                    "link" : "500-individual-income-tax-return-4"
+                },
+                {
+                    "name" : "Form IND-CR 207",
+                    "link" : "500-individual-income-tax-return-4"
+                },
+                {
+                    "name" : "Form IND-CR 208",
+                    "link" : "500-individual-income-tax-return-4"
+                },
+                {
+                    "name" : "Form IND-CR 209",
+                    "link" : "500-individual-income-tax-return-4"
+                },
+                {
+                    "name" : "Form IND-CR 212",
+                    "link" : "500-individual-income-tax-return-4"
+                },
+                {
+                    "name" : "Form IT-QEE-TP2",
+                    "link" : "it-qee-tp2"
+                },
+                {
+                    "name" : "Form GA-8453",
+                    "link" : "ga-8453-individual-income-tax-declaration-electronic-filing"
+                },
+                {
+                    "name" : "Form 525-TV",
+                    "link" : "525-tv-individual-fiduciary-payment-voucher"
+                },
+                {
+                    "name" : "Form 500X (amended)",
+                    "link" : "500x-amended-individual-income-tax-return-0"
+                },
+                {
+                    "name" : "Form 500 ES",
+                    "link" : "500-es-individual-and-fiduciary-estimated-tax-payment-voucher"
                 }
             ]
         },
         {
             "state-name" : "Hawaii",
+            "link" : "https://files.hawaii.gov/tax/forms/{year}/{form}.pdf",
             "forms" : [
                 {
-                    
+                    "name" : "Form N-11",
+                    "link" : "n11_i",
+                    "instructions" : "n11ins"
+                },
+                {
+                    "name" : "Form N-15",
+                    "link" : "n15_i",
+                    "instructions" : "n15ins"
+                },
+                {
+                    "name" : "Form N-158",
+                    "link" : "n158",
+                    "instructions" : "n158"
+                },
+                {
+                    "name" : "Form N-200V",
+                    "link" : "n200v_i",
+                    "instructions" : "n200v_i"
+                },
+                {
+                    "name" : "Form N-311",
+                    "link" : "n311_i",
+                    "instructions" : "n311_i"
+                },
+                {
+                    "name" : "Form N-356",
+                    "link" : "n356_i",
+                    "instructions" : "n356_i"
+                },
+                {
+                    "name" : "Schedule CR",
+                    "link" : "schcr_i",
+                    "instructions" : "schcrins"
+                },
+                {
+                    "name" : "Schedule X",
+                    "link" : "schx_i",
+                    "instructions" : "schx_i"
+                },
+                {
+                    "name" : "Schedule AMD",
+                    "link" : "schamd_i",
+                    "instructions" : "schamd_i"
                 }
             ]
         },
         {
             "state-name" : "Idaho",
+            "link" : "https://tax.idaho.gov/search-formspublications.cfm?ch=ind&t=tt&y={year}",
             "forms" : [
+                {	
+                    "name" : "Form 40"
+                },
                 {
-                    
+                    "name" : "Form 43"
+                },
+                {
+                    "name" : "Form 39R"
+                },
+                {
+                    "name" : "Form 39NR"
+                },
+                {
+                    "name" : "Form CG"
+                },
+                {
+                    "name" : "Form 51"
+                },
+                {
+                    "name" : "Form 40-VP"
                 }
             ]
         },
         {
             "state-name" : "Illinois",
+            "link" : "https://www2.illinois.gov/rev/forms/incometax/Pages/{year}/individual.aspx",
             "forms" : [
-                {
-                    
+                {	
+                    "name" : "Form IL-1040"
+                },
+                {	
+                    "name" : "Schedule CR"
+                },
+                {	
+                    "name" : "Schedule G"
+                },
+                {	
+                    "name" : "Schedule IL-WIT"
+                },
+                {	
+                    "name" : "Schedule ICR"
+                },
+                {	
+                    "name" : "Schedule IL-E/EIC"
+                },
+                {	
+                    "name" : "Schedule M"
+                },
+                {	
+                    "name" : "Schedule NR"
+                },
+                {	
+                    "name" : "IL-1040-V"
+                },
+                {	
+                    "name" : "IL-1040-X-V"
+                },
+                {	
+                    "name" : "IL-1040-ES"
+                },
+                {	
+                    "name" : "IL-1040-X (amended)"
+                },
+                {	
+                    "name" : "IL-4562"
+                },
+                {	
+                    "name" : "IL-8453"
                 }
             ]
         },
         {
             "state-name" : "Indiana",
+            "link" : "https://www.in.gov/dor/tax-forms/{year}-individual-income-tax-forms/",
             "forms" : [
+                {	
+                    "name" : "Form IT-40"
+                },
                 {
-                    
+                    "name" : "Schedule 1"
+                },
+                {
+                    "name" : "Schedule 2"
+                },
+                {
+                    "name" : "Schedule 3"
+                },
+                {
+                    "name" : "Schedule 4"
+                },
+                {
+                    "name" : "Schedule 5"
+                },
+                {
+                    "name" : "Schedule 6"
+                },
+                {
+                    "name" : "Schedule 7"
+                },
+                {
+                    "name" : "Schedule IN-DONATE"
+                },
+                {
+                    "name" : "Schedule IN-DEP"
+                },
+                {
+                    "name" : "Schedule IN-529"
+                },
+                {
+                    "name" : "Schedule IN-CR"
+                },
+                {
+                    "name" : "Schedule CC-40"
+                },
+                {
+                    "name" : "Schedule CT-40"
+                },
+                {
+                    "name" : "Schedule IN-EIC"
+                },
+                {
+                    "name" : "Schedule IN-EDGE"
+                },
+                {
+                    "name" : "Schedule IN-EDGE-R"
+                },
+                {
+                    "name" : "Schedule IN-OCC"
+                },
+                {
+                    "name" : "Form ES-40"
+                },
+                {
+                    "name" : "Form PFC"
+                },
+                {
+                    "name" : "Form IT-40PNR"
+                },
+                {
+                    "name" : "Schedule A"
+                },
+                {
+                    "name" : "Schedule B"
+                },
+                {
+                    "name" : "Schedule C"
+                },
+                {
+                    "name" : "Schedule D"
+                },
+                {
+                    "name" : "Schedule E"
+                },
+                {
+                    "name" : "Schedule F"
+                },
+                {
+                    "name" : "Schedule G"
+                },
+                {
+                    "name" : "Schedule H"
+                },
+                {
+                    "name" : "Form IT-40RNR"
+                },
+                {
+                    "name" : "Form IT-40X (amended)"
+                },
+                {
+                    "name" : "Schedule CT-40PNR"
+                },
+                {
+                    "name" : "Schedule IT-2210"
+                },
+                {
+                    "name" : "Schedule IN-2058SP"
+                },
+                {
+                    "name" : "Schedule IN-PRO"
+                },
+                {
+                    "name" : "Form IT-9"
+                },
+                {
+                    "name" : "Form IT-8453OL"
+                },
+                {
+                    "name" : "Form IT-8879"
+                },
+                {
+                    "name" : "Form IN-OPT"
                 }
             ]
         },
         {
             "state-name" : "Iowa",
+            "link" : "https://tax.iowa.gov/forms",
             "forms" : [
+                {	
+                    "name" : "Form 1040"
+                },
                 {
-                    
+                    "name" : "Form 1040 X (amended)"
+                },
+                {
+                    "name" : "Form 126"
+                },
+                {
+                    "name" : "Form 1040 Schedule A"
+                },
+                {
+                    "name" : "Form 1040 Schedule B"
+                },
+                {
+                    "name" : "Form 8453 IND"
+                },
+                {
+                    "name" : "Form 130"
+                },
+                {
+                    "name" : "Form 148, Part II"
+                },
+                {
+                    "name" : "Form 177"
+                },
+                {
+                    "name" : "Form 4562A"
+                },
+                {
+                    "name" : "Form 4562B"
+                },
+                {
+                    "name" : "Form 101"
+                },
+                {
+                    "name" : "Form 6251"
+                },
+                {
+                    "name" : "Form 1040V"
+                },
+                {
+                    "name" : "Form 1040XV"
+                },
+                {
+                    "name" : "Form 1040ES"
                 }
             ]
         },
         {
             "state-name" : "Kansas",
+            "link" : "https://www.ksrevenue.gov/pdf/{form}{yr}.pdf",
+            "instructions" : "ip",
             "forms" : [
-                {
-                    
-                }
+                {	
+                    "name" : "Form K-40",
+                    "link" : "k-40"
+                },
+                {	
+                    "name" : "Schedule S",
+                    "link" : "schs"
+                },
+                {	
+                    "name" : "Schedule A",
+                    "link" : "scha"
+                },
+                {	
+                    "name" : "Form K-40H",
+                    "link" : "k-40h"
+                },
+                {	
+                    "name" : "Form K-40PT",
+                    "link" : "k-40pt"
+                },
+                {	
+                    "name" : "Schedule CR",
+                    "link" : "schcr"
+                },
+                {	
+                    "name" : "Form K-40V",
+                    "link" : "k-40v"
+                },
+                {	
+                    "name" : "Form K-40ES",
+                    "link" : "k-40es"
+                },
+                {	
+                    "name" : "Form K-210",
+                    "link" : "k-210"
+                }	
             ]
         },
         {
             "state-name" : "Kentucky",
+            "link" : "https://revenue.ky.gov/Get-Help/Pages/Forms.aspx",
             "forms" : [
+                {	
+                    "name" : "Form 740"
+                },
                 {
-                    
+                    "name" : "Form 740-NP"
+                },
+                {
+                    "name" : "Schedule A"
+                },
+                {
+                    "name" : "Schedule A-NP"
+                },
+                {
+                    "name" : "Schedule ITC"
+                },
+                {
+                    "name" : "Schedule M"
+                },
+                {
+                    "name" : "Schedule KW-2"
+                },
+                {
+                    "name" : "Schedule P"
+                },
+                {
+                    "name" : "Form 2210-K"
+                },
+                {
+                    "name" : "Form 8863-K"
+                },
+                {
+                    "name" : "Form 8879-K"
+                },
+                {
+                    "name" : "Form 8948-K"
+                },
+                {
+                    "name" : "Form 740-V"
+                },
+                {
+                    "name" : "Form 740-ES"
+                },
+                {
+                    "name" : "Form 740-NP-R"
                 }
             ]
         },
         {
             "state-name" : "Louisiana",
+            "link" : "https://revenue.louisiana.gov/Forms/ForIndividuals",
             "forms" : [
                 {
-                    
+                    "name" : "Form IT-540"
+                },
+                {
+                    "name" : "Schedule C"
+                },
+                {
+                    "name" : "Schedule D"
+                },
+                {
+                    "name" : "Schedule E"
+                },
+                {
+                    "name" : "Schedule F"
+                },
+                {
+                    "name" : "Schedule I"
+                },
+                {
+                    "name" : "Schedule J"
+                },
+                {
+                    "name" : "Form IT-540B"
+                },
+                {
+                    "name" : "NPR Worksheet"
+                },
+                {
+                    "name" : "Schedule C-NR"
+                },
+                {
+                    "name" : "Schedule D-NR"
+                },
+                {
+                    "name" : "Schedule F-NR"
+                },
+                {
+                    "name" : "Schedule I-NR"
+                },
+                {
+                    "name" : "Schedule J-NR"
+                },
+                {
+                    "name" : "Child Care Credit Worksheet"
+                },
+                {
+                    "name" : "Nonrefundable Child Care Credit Worksheet"
+                },
+                {
+                    "name" : "School Expense Deduction Worksheet"
+                },
+                {
+                    "name" : "COVID-19 Education Expense Deduction Worksheet"
+                },
+                {
+                    "name" : "School Readiness Credit Worksheet"
+                },
+                {
+                    "name" : "Nonrefundable School Readiness Credit Worksheet"
+                },
+                {
+                    "name" : "Earned Income Credit Worksheet"
+                },
+                {
+                    "name" : "Form R-10606"
+                },
+                {
+                    "name" : "Form R-6642"
+                },
+                {
+                    "name" : "Form R-540V"
+                },
+                {
+                    "name" : "Form IT-540ES"
+                },
+                {
+                    "name" : "Form LA 8453OL"
+                },
+                {
+                    "name" : "Form LA 8453"
                 }
             ]
         },
         {
             "state-name" : "Maine",
+            "link" : "https://www.maine.gov/revenue/tax-return-forms/individual-income-tax-{year}",
             "forms" : [
+                {	
+                    "name" : "Form 1040ME"
+                },
                 {
-                    
+                    "name" : "Schedule CP"
+                },
+                {
+                    "name" : "Schedule PTFC/STFC"
+                },
+                {
+                    "name" : "Schedule 1A"
+                },
+                {
+                    "name" : "Schedule 1S"
+                },
+                {
+                    "name" : "Schedule 2"
+                },
+                {
+                    "name" : "Schedule A"
+                },
+                {
+                    "name" : "Schedule NR"
+                },
+                {
+                    "name" : "Worksheet A"
+                },
+                {
+                    "name" : "Worksheet B"
+                },
+                {
+                    "name" : "Form 1040ME-PV"
+                },
+                {
+                    "name" : "Form 1040ME-ES"
                 }
             ]
         },
         {
-            "state-name" : "Massachusetts",
+            "state-name" : "Maryland",
+            "link" : "https://www.marylandtaxes.gov/forms/{yr}_forms/{form}.pdf",
             "forms" : [
+                {	
+                    "name" : "Form 502",
+                    "link" : "502",
+                    "instructions" : "Resident_Booklet"
+                },
+                {	
+                    "name" : "Form 505",
+                    "link" : "505",
+                    "instructions" : "Nonresident_Booklet"
+                },
+                {	
+                    "name" : "Form 505NR",
+                    "link" : "505NR",
+                    "instructions" : "Nonresident_Booklet"
+                },
+                {	
+                    "name" : "Form 502B",
+                    "link" : "502B",
+                    "instructions" : "Resident_Booklet"
+                },
+                {	
+                    "name" : "Form 502CR",
+                    "link" : "502CR",
+                    "instructions" : "502CR"
+                },
+                {	
+                    "name" : "Form 502SU",
+                    "link" : "502SU",
+                    "instructions" : "Resident_Booklet"
+                },
+                {	
+                    "name" : "Form 505SU",
+                    "link" : "505SU",
+                    "instructions" : "Nonresident_Booklet"
+                },
+                {	
+                    "name" : "Form 502R",
+                    "link" : "502R",
+                    "instructions" : "502R"
+                },
+                {	
+                    "name" : "Form 502V",
+                    "link" : "502V",
+                    "instructions" : "502V"
+                },
+                {	
+                    "name" : "Form 502AE",
+                    "link" : "502AE",
+                    "instructions" : "502AE"
+                },
+                {	
+                    "name" : "Form 502UP",
+                    "link" : "502UP",
+                    "instructions" : "502UP"
+                },
+                {	
+                    "name" : "Form 500DM",
+                    "link" : "500DM",
+                    "instructions" : "500DM"
+                },
+                {	
+                    "name" : "Form EL101",
+                    "link" : "EL101",
+                    "instructions" : "EL101"
+                },
+                {	
+                    "name" : "Form PV",
+                    "link" : "PV",
+                    "instructions" : "PV"
+                },
+                {	
+                    "name" : "Form 502X (amended)",
+                    "link" : "502X",
+                    "instructions" : "Resident_Booklet"
+                },
+                {	
+                    "name" : "Form 505X (amended",
+                    "link" : "505X",
+                    "instructions" : "Nonresident_Booklet"
+                }	
+            ]
+        },
+        {
+            "state-name" : "Massachusetts",
+            "link" : "https://www.mass.gov/doc/{year}-{form}/download",
+            "forms" : [
+                {	
+                    "name" : "Form 1",
+                    "link" : "form-1-massachusetts-resident-income-tax-return",
+                    "instructions" : "form-1-instructions"
+                },
                 {
-                    
+                    "name" : "Form 1-NR/PY",
+                    "link" : "form-1-nrpy-massachusetts-nonresidentpart-year-tax-return",
+                    "instructions" : "form-1-nrpy-instructions"
+                },
+                {
+                    "name" : "Schedule B",
+                    "link" : "schedule-b-interest-dividends-and-certain-capital-gains-and-losses-0",
+                    "instructions" : "form-1-instructions"
+                },
+                {
+                    "name" : "Schedule C",
+                    "link" : "schedule-c-massachusetts-profit-or-loss-from-business",
+                    "instructions" : "form-1-instructions"
+                },
+                {
+                    "name" : "Schedule CB",
+                    "link" : "schedule-cb-circuit-breaker-credit",
+                    "instructions" : "form-1-instructions"
+                },
+                {
+                    "name" : "Credit Manager Schedule",
+                    "link" : "schedule-cms-credit-manager-schedule",
+                    "instructions" : "form-1-instructions"
+                },
+                {
+                    "name" : "Schedule D",
+                    "link" : "schedule-d-long-term-capital-gains-and-losses-excluding-collectibles-and-pre-1996",
+                    "instructions" : "form-1-instructions"
+                },
+                {
+                    "name" : "Schedule DI",
+                    "link" : "schedule-di-dependent-information",
+                    "instructions" : "form-1-instructions"
+                },
+                {
+                    "name" : "Schedule E",
+                    "link" : "schedule-e-and-instructions-reconciliation-total-supplemental-income-and-loss",
+                    "instructions" : "form-1-instructions"
+                },
+                {
+                    "name" : "Schedule E-1",
+                    "link" : "schedule-e-1-rental-real-estate-and-royalty-income-and-loss",
+                    "instructions" : "form-1-instructions"
+                },
+                {
+                    "name" : "Schedule E-2",
+                    "link" : "schedule-e-2-partnership-and-s-corporation-income-and-loss",
+                    "instructions" : "form-1-instructions"
+                },
+                {
+                    "name" : "Schedule E-3",
+                    "link" : "schedule-e-3-estate-trust-remic-and-farm-income-and-loss",
+                    "instructions" : "form-1-instructions"
+                },
+                {
+                    "name" : "Schedule EC",
+                    "link" : "schedule-ec-solar-and-wind-energy-credit",
+                    "instructions" : "schedule-ec-solar-and-wind-energy-credit"
+                },
+                {
+                    "name" : "Schedule F",
+                    "link" : "",
+                    "instructions" : ""
+                },
+                {
+                    "name" : "Schedule FAF",
+                    "link" : "schedule-faf-farming-and-fisheries-credit",
+                    "instructions" : "schedule-faf-farming-and-fisheries-credit"
+                },
+                {
+                    "name" : "Schedule HC",
+                    "link" : "schedule-hc-health-care-information",
+                    "instructions" : "schedule-hc-instructions"
+                },
+                {
+                    "name" : "Schedule HC-CS",
+                    "link" : "schedule-hc-cs-health-care-information-continuation-sheet",
+                    "instructions" : "schedule-hc-cs-health-care-information-continuation-sheet"
+                },
+                {
+                    "name" : "Schedule INC",
+                    "link" : "",
+                    "instructions" : ""
+                },
+                {
+                    "name" : "Schedule LP",
+                    "link" : "schedule-lp-credit-for-removing-or-covering-lead-paint-on-residential-premises",
+                    "instructions" : "schedule-lp-credit-for-removing-or-covering-lead-paint-on-residential-premises"
+                },
+                {
+                    "name" : "Schedule NTS-L-NR/PY",
+                    "link" : "schedule-nts-l-nrpy-no-tax-status-and-limited-income-credit",
+                    "instructions" : "form-1-nrpy-instructions"
+                },
+                {
+                    "name" : "Schedule OJC",
+                    "link" : "schedule-ojc-income-tax-due-to-other-jurisdictions",
+                    "instructions" : "schedule-ojc-income-tax-due-to-other-jurisdictions"
+                },
+                {
+                    "name" : "Schedule R/NR",
+                    "link" : "schedule-rnr-residentnonresident-worksheet",
+                    "instructions" : "form-1-nrpy-instructions"
+                },
+                {
+                    "name" : "Schedule SC",
+                    "link" : "schedule-sc-septic-credit-for-repairing-or-replacing-a-failed-cesspool-or-septic-system",
+                    "instructions" : "schedule-sc-septic-credit-for-repairing-or-replacing-a-failed-cesspool-or-septic-system"
+                },
+                {
+                    "name" : "Schedule X",
+                    "link" : "schedule-xy-other-income-and-deductions",
+                    "instructions" : "form-1-nrpy-instructions"
+                },
+                {
+                    "name" : "Schedule y",
+                    "link" : "schedule-xy-other-income-and-deductions",
+                    "instructions" : "form-1-nrpy-instructions"
+                },
+                {
+                    "name" : "Form M-8453",
+                    "link" : "form-m-8453-individual-income-tax-declaration-for-electronic-filing",
+                    "instructions" : "form-m-8453-individual-income-tax-declaration-for-electronic-filing"
+                },
+                {
+                    "name" : "Form EFO",
+                    "link" : "form-efo-personal-income-tax-declaration-of-paper-filing",
+                    "instructions" : "form-efo-personal-income-tax-declaration-of-paper-filing"
+                },
+                {
+                    "name" : "Form PV",
+                    "link" : "form-pv-massachusetts-income-tax-payment",
+                    "instructions" : "form-pv-massachusetts-income-tax-payment"
+                },
+                {
+                    "name" : "Form 1-ES",
+                    "link" : "form-1-es-estimated-income-tax-payment-voucher-instructions-and-worksheets",
+                    "instructions" : "form-1-es-estimated-income-tax-payment-voucher-instructions-and-worksheets"
                 }
             ]
         },
         {
             "state-name" : "Michigan",
+            "link" : "https://www.michigan.gov/taxes/0,4676,7-238-43513---,00.html",
             "forms" : [
+                {	
+                    "name" : "Form MI-1040"
+                },
                 {
-                    
+                    "name" : "Schedule AMD"
+                },
+                {
+                    "name" : "Schedule 1"
+                },
+                {
+                    "name" : "Schedule NR"
+                },
+                {
+                    "name" : "Form MI-1040CR"
+                },
+                {
+                    "name" : "Form MI-1040CR-2"
+                },
+                {
+                    "name" : "Form MI-1040CR-5"
+                },
+                {
+                    "name" : "Form MI-1040CR-7"
+                },
+                {
+                    "name" : "Form MI-1040ES"
+                },
+                {
+                    "name" : "Form MI-1040-V"
+                },
+                {
+                    "name" : "Form 1045"
+                },
+                {
+                    "name" : "Form 2210"
+                },
+                {
+                    "name" : "Form 4642"
+                },
+                {
+                    "name" : "Form 4884"
+                },
+                {
+                    "name" : "Form 4973"
+                },
+                {
+                    "name" : "Form 4976"
+                },
+                {
+                    "name" : "Form 5049"
+                },
+                {
+                    "name" : "Form 5118"
+                },
+                {
+                    "name" : "Form 5119"
+                },
+                {
+                    "name" : "Form 5120"
+                },
+                {
+                    "name" : "Form 5121"
+                },
+                {
+                    "name" : "Form 5122-City-V"
+                },
+                {
+                    "name" : "Form 5123"
+                },
+                {
+                    "name" : "Form 5253"
+                },
+                {
+                    "name" : "Form 5327"
+                },
+                {
+                    "name" : "Form 5472"
+                },
+                {
+                    "name" : "Form 5674"
+                },
+                {
+                    "name" : "Form 5678"
+                },
+                {
+                    "name" : "Form MI-8453"
+                },
+                {
+                    "name" : "Schedule CR-5"
+                },
+                {
+                    "name" : "Schedule W"
+                },
+                {
+                    "name" : "Form CF-1040"
+                },
+                {
+                    "name" : "Schedule TC"
+                },
+                {
+                    "name" : "Form CF-COV"
+                },
+                {
+                    "name" : "Form CF-1040ES"
+                },
+                {
+                    "name" : "Form CF-1040X"
+                },
+                {
+                    "name" : "Schedule TCX"
                 }
             ]
         },
         {
             "state-name" : "Minnesota",
+            "link" : "https://www.revenue.state.mn.us/form-search",
             "forms" : [
+                {	
+                    "name" : "Form M1"
+                },
                 {
-                    
+                    "name" : "Form M15"
+                },
+                {
+                    "name" : "Form M1W"
+                },
+                {
+                    "name" : "Form M1M"
+                },
+                {
+                    "name" : "Form M1HOME"
+                },
+                {
+                    "name" : "Form M1WFC"
+                },
+                {
+                    "name" : "Form M1CD"
+                },
+                {
+                    "name" : "Form M1ED"
+                },
+                {
+                    "name" : "Form M1SLC"
+                },
+                {
+                    "name" : "Form M1529"
+                },
+                {
+                    "name" : "Form M1AR"
+                },
+                {
+                    "name" : "Form M1CMD"
+                },
+                {
+                    "name" : "Form M1PSC"
+                },
+                {
+                    "name" : "Form M1REF"
+                },
+                {
+                    "name" : "Form M1MT"
+                },
+                {
+                    "name" : "Form M1R"
+                },
+                {
+                    "name" : "Form M1SA"
+                },
+                {
+                    "name" : "Form M1CAT"
+                },
+                {
+                    "name" : "Form M1CR"
+                },
+                {
+                    "name" : "Form M1RCR"
+                },
+                {
+                    "name" : "Form M1C"
+                },
+                {
+                    "name" : "Form M1MTC"
+                },
+                {
+                    "name" : "Form M1NR"
+                },
+                {
+                    "name" : "Form M1NC"
+                },
+                {
+                    "name" : "Form M1LTI"
+                },
+                {
+                    "name" : "Form M1LOSS"
+                },
+                {
+                    "name" : "Form M1MA"
+                },
+                {
+                    "name" : "Form M1MB"
+                },
+                {
+                    "name" : "Form M1UE"
+                },
+                {
+                    "name" : "Form ETP"
+                },
+                {
+                    "name" : "Minnesota Payment Voucher"
+                },
+                {
+                    "name" : "Form M1X (amended)"
+                },
+                {
+                    "name" : "Form M1PR"
+                },
+                {
+                    "name" : "Form M1PRAI"
+                },
+                {
+                    "name" : "Form M1PR (worksheets)"
+                },
+                {
+                    "name" : "Form M1PRX (amended)"
                 }
             ]
         },
         {
             "state-name" : "Mississippi",
+            "link" : "https://www.dor.ms.gov/individual/individual-income-tax-forms",
             "forms" : [
+                {	
+                    "name" : "Form 71-661"
+                },
                 {
-                    
+                    "name" : "Form 80-105"
+                },
+                {
+                    "name" : "Form 80-106"
+                },
+                {
+                    "name" : "Form 80-107"
+                },
+                {
+                    "name" : "Form 80-108"
+                },
+                {
+                    "name" : "Form 80-160"
+                },
+                {
+                    "name" : "Form 80-205"
+                },
+                {
+                    "name" : "Form 80-320"
+                },
+                {
+                    "name" : "Form 80-401"
+                },
+                {
+                    "name" : "Form 80-491"
+                },
+                {
+                    "name" : "Form MS8453"
                 }
             ]
         },
         {
             "state-name" : "Missouri",
+            "link" : "https://dor.mo.gov/forms/{form}_{year}.pdf",
             "forms" : [
-                {
-                    
-                }
+                {	
+                    "name" : "Form MO-1040",
+                    "link" : "MO-1040%20Print%20Only",
+                    "instructions" : "MO-1040%20Instructions"
+                },
+                {	
+                    "name" : "Form MO-A",
+                    "link" : "MO-1040A%20Print%20Only",
+                    "instructions" : "MO-1040A%20Instructions"
+                },
+                {	
+                    "name" : "Form MO-CR",
+                    "link" : "MO-CR",
+                    "instructions" : "MO-CR"
+                },
+                {	
+                    "name" : "Form MO-NRI",
+                    "link" : "MO-NRI",
+                    "instructions" : "MO-NRI"
+                },
+                {	
+                    "name" : "Form MO-PTS",
+                    "link" : "MO-PTS",
+                    "instructions" : "MO-1040%20Instructions"
+                },
+                {	
+                    "name" : "Form MO-CRP",
+                    "link" : "MO-CRP",
+                    "instructions" : "MO-1040%20Instructions"
+                },
+                {	
+                    "name" : "Form 5695",
+                    "link" : "5695",
+                    "instructions" : "5496"
+                },
+                {	
+                    "name" : "Form MO-2210",
+                    "link" : "MO-2210",
+                    "instructions" : "MO-2210"
+                },
+                {	
+                    "name" : "Form MO-1040V",
+                    "link" : "MO-1040V",
+                    "instructions" : "MO-1040V"
+                },
+                {	
+                    "name" : "Form MO-1040ES",
+                    "link" : "MO-1040ES",
+                    "instructions" : "MO-1040ES"
+                }	
             ]
         },
         {
             "state-name" : "Montana",
+            "link" : "https://mtrevenue.gov/publications/{form}/",
             "forms" : [
-                {
-                    
+                {	
+                    "name" : "Form 2",
+                    "link" : "montana-individual-income-tax-return-form-2"
+                },
+                {	
+                    "name" : "Form 2441-M",
+                    "link" : "child-and-dependent-care-expense-deduction-form-2441-m"
+                },
+                {	
+                    "name" : "Form ENRG-C",
+                    "link" : "energy-conservation-installation-credit-form-enrg-c"
+                },
+                {	
+                    "name" : "Form IT",
+                    "link" : "montana-individual-income-tax-payment-voucher-form-it"
                 }
             ]
         },

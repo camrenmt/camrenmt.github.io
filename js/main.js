@@ -118,18 +118,20 @@ function createLink() {
         } else if(stateInd == 24) {
             link = createLinkMt(stateInd, form);
         } else if(stateInd == 25) {
-            link = createLinkNe(stateInd, form, year);
+            link = createLinkNe(stateInd, formType, form, year);
         } else if(stateInd == 26) {
-            link = createLinkNj(stateInd, form, year);
+            link = createLinkNj(stateInd, formType, form, year);
         } else if(stateInd == 27) {
-            link = createLinkNm(stateInd, form, year);
+            link = createLinkNm(stateInd);
         } else if(stateInd == 28) {
-            link = createLinkNy(stateInd, form, year);
+            link = createLinkNy(stateInd, formType, form, year);
         } 
     }
     
-    document.getElementById('link-text').innerText = link;
-    document.getElementById('button-text').innerText = "Open " + year + " " + document.getElementById('form-select').selectedOptions[0].innerText;
+    if (link) {
+        document.getElementById('link-text').innerText = link;
+        document.getElementById('button-text').innerText = "Open " + year + " " + document.getElementById('form-select').selectedOptions[0].innerText;
+    }
 }
 
 function openWindow() {
@@ -147,6 +149,8 @@ function fillFed() {
 
 function fillFedForm(type) {
     var formSelect = document.getElementById('form-select');
+
+    clearForms();
 
     var i = 0
     if (type ==='i' || type === 'f') {
@@ -195,6 +199,8 @@ function fillStateForms() {
     var stateIndex = document.getElementById('state-select').selectedOptions[0].value;
     var formSelect = document.getElementById('form-select');
 
+    clearForms();
+
     var i = 0
     if (document.getElementById('form-type-select').selectedOptions[0].value === 'f') {
         jsonData.states[stateIndex]['forms'].forEach(e => {
@@ -223,14 +229,14 @@ function initStateOrFed() {
     var val = document.getElementById('fs-select').selectedOptions[0].value;
   
     if (val === 'fed') {
-        document.getElementById('pubs').classList.remove('d_none');
         var stateSelect = document.getElementById('state-select-wrapper')
         
-        if (!stateSelect.classList.contains('d_none') || document.getElementById('form-type-select').selectedOptions[0].value === "p") {
+        if (!stateSelect.classList.contains('d_none')) {
             stateSelect.classList.add('d_none');
-            clearForms;
-            fillFed();
+            document.getElementById('pubs').classList.remove('d_none');
         }
+        clearForms;
+        fillFed();
     } else if (val === 'state') {
         var stateSelect = document.getElementById('state-select-wrapper')
         document.getElementById('pubs').classList.add('d_none');
@@ -241,6 +247,7 @@ function initStateOrFed() {
             fillStates();
         }
     }
+    createLink();
 }
 
 function clearForms() {
@@ -433,3 +440,55 @@ function createLinkMt(stateInd, form) {
 
     return link.replace("{form}", formName);
 }
+
+function createLinkNe(stateInd, type, form, year) {
+    var link = jsonData.states[stateInd]['link'].replace("{year}", year);
+
+    if (type === "i") type = "instructions";
+    else if (type === "f") type = "link";
+    else return; 
+    
+    var formName = jsonData.states[stateInd]['forms'][form][type].replace("{year}", year);
+
+    return link.replace("{form}", formName);
+}
+
+function createLinkNj(stateInd, type, form, year) {
+    var link = jsonData.states[stateInd]['link'].replace("{year}", year)
+    if (year == YEAR_CURRENT) {
+        link = "https://www.state.nj.us/treasury/taxation/pdf/current/{form}.pdf";
+    }
+
+    if (type === "i") type = "instructions";
+    else if (type === "f") type = "link";
+    else return; 
+    
+    var formName = jsonData.states[stateInd]['forms'][form][type];
+
+    return link.replace("{form}", formName)
+}
+
+function createLinkNm(stateInd) {
+    return jsonData.states[stateInd]['link'];
+}
+
+function createLinkNy(stateInd, type, form, year) {
+    var link = jsonData.states[stateInd]['link'].replace("{year}", year);
+
+    if (type === "i") type = "instructions";
+    else if (type === "f") type = "link";
+    else return; 
+
+    var formName;
+
+    if (year == YEAR_CURRENT) {
+        link = `https://www.tax.ny.gov/pdf/current_forms/it/{form}.pdf`;
+        formName = jsonData.states[stateInd]['forms'][form][type].replace("{year}", "");
+
+    } else {
+        formName = jsonData.states[stateInd]['forms'][form][type].replace("{year}", '_' + year);
+    }
+
+    return link.replace("{form}", formName)
+}
+

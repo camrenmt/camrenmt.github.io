@@ -2753,33 +2753,489 @@
         },
         {
             "state-name" : "Nebraska",
+            "link" : "https://revenue.nebraska.gov/sites/revenue.nebraska.gov/files/doc/tax-forms/{year}/{form}.pdf",
             "forms" : [
-                {
-                    
-                }
+                {	
+                    "name" : "Form 1040N",
+                    "link" : "f_1040n",
+                    "instructions" : "f_1040n_booklet"
+                },
+                {	
+                    "name" : "Schedule I",
+                    "link" : "f_1040n_schs",
+                    "instructions" : "f_1040n_booklet"
+                },
+                {	
+                    "name" : "Schedule II",
+                    "link" : "f_1040n_schs",
+                    "instructions" : "f_1040n_booklet"
+                },
+                {	
+                    "name" : "Schedule III",
+                    "link" : "f_1040n_schs",
+                    "instructions" : "f_1040n_booklet"
+                },
+                {	
+                    "name" : "Form PTC",
+                    "link" : "f_ptc",
+                    "instructions" : "f_ptc"
+                },
+                {	
+                    "name" : "Form CDN",
+                    "link" : "f_cdn",
+                    "instructions" : "f_cdn"
+                },
+                {	
+                    "name" : "Form TANF",
+                    "link" : "f_tanf",
+                    "instructions" : "f_tanf"
+                },
+                {	
+                    "name" : "Form 2210N",
+                    "link" : "f_2210n",
+                    "instructions" : "f_2210n"
+                },
+                {	
+                    "name" : "Form 2441N",
+                    "link" : "f_2441n",
+                    "instructions" : "f_2441n"
+                },
+                {	
+                    "name" : "Form 1040N-V",
+                    "link" : "f_1040nv",
+                    "instructions" : "f_1040nv"
+                },
+                {	
+                    "name" : "Form 1040XN",
+                    "link" : "f_1040xn_{year}",
+                    "instructions" : "f_1040xn_{year}"
+                },
+                {	
+                    "name" : "Form 1040N-ES",
+                    "link" : "f_1040nes",
+                    "instructions" : "f_1040nes"
+                },
+                {	
+                    "name" : "E-file Opt-Out Form",
+                    "link" : "",
+                    "instructions" : ""
+                }	
             ]
         },
         {
             "state-name" : "New Jersey",
+            "link" : "https://www.state.nj.us/treasury/taxation/pdf/other_forms/tgi-ee/{year}/{form}.pdf",
             "forms" : [
-                {
-                    
+                {	
+                    "name" : "Form NJ-1040",
+                    "link" : "1040",
+                    "instructions" : "1040i"
+                },
+                {	
+                    "name" : "Form NJ-1040NR",
+                    "link" : "1040nr",
+                    "instructions" : "1040nri"
+                },
+                {	
+                    "name" : "Schedule NJ-COJ",
+                    "link" : "schedulenjcoj",
+                    "instructions" : "1040i"
+                },
+                {	
+                    "name" : "Schedule NJ-DOP",
+                    "link" : "schedulenjdop-wcc",
+                    "instructions" : "1040i"
+                },
+                {	
+                    "name" : "Schedule NJ-BUS-1",
+                    "link" : "resbus1",
+                    "instructions" : "1040i"
+                },
+                {	
+                    "name" : "Schedule NJ-BUS-1NR",
+                    "link" : "nonresbus1",
+                    "instructions" : "1040nri"
+                },
+                {	
+                    "name" : "Schedule NJ-BUS-2",
+                    "link" : "resbus2",
+                    "instructions" : "1040i"
+                },
+                {	
+                    "name" : "Schedule NJ-BUS-2NR",
+                    "link" : "nonresbus2",
+                    "instructions" : "1040nri"
+                },
+                {	
+                    "name" : "Schedule NJ-WWC",
+                    "link" : "schedulenjdop-wcc",
+                    "instructions" : "1040i"
+                },
+                {	
+                    "name" : "Schedule NJ-HCC",
+                    "link" : "schedule-njhcc",
+                    "instructions" : "schedule-njhcc"
+                },
+                {	
+                    "name" : "Form NJ-2210",
+                    "link" : "2210",
+                    "instructions" : "2210"
+                },
+                {	
+                    "name" : "Form NJ-2450",
+                    "link" : "2450",
+                    "instructions" : "2450"
+                },
+                {	
+                    "name" : "Form NJ-1040-V",
+                    "link" : "1040v",
+                    "instructions" : "1040v"
+                },
+                {	
+                    "name" : "Form NJ-1040NR-V",
+                    "link" : "1040nrv",
+                    "instructions" : "1040nrv"
+                },
+                {	
+                    "name" : "Form NJ-1040ES-V",
+                    "link" : "1040esv",
+                    "instructions" : "1040esv"
+                },
+                {	
+                    "name" : "Form NJ-1040X",
+                    "link" : "1040x",
+                    "instructions" : "1040x"
+                },
+                {	
+                    "name" : "Form NJ-1040-O",
+                    "link" : "1040o",
+                    "instructions" : "1040o"
                 }
             ]
         },
         {
             "state-name" : "New Mexico",
+            "link" : "https://www.tax.newmexico.gov/forms-publications/",
             "forms" : [
+                {	
+                    "name" : "Form PIT-1"
+                },
                 {
-                    
+                    "name" : "Form PIT-RC"
+                },
+                {
+                    "name" : "Form PIT-CR"
+                },
+                {
+                    "name" : "Form PIT-ADJ"
+                },
+                {
+                    "name" : "Form PIT-B"
+                },
+                {
+                    "name" : "Form PIT-D"
+                },
+                {
+                    "name" : "Form PIT-8453"
+                },
+                {
+                    "name" : "Form RPD-41272"
+                },
+                {
+                    "name" : "Form RPD-41338"
+                },
+                {
+                    "name" : "Form PIT-S"
+                },
+                {
+                    "name" : "Form PIT-PV"
+                },
+                {
+                    "name" : "Form PIT-ES"
+                },
+                {
+                    "name" : "Form PIT-X (amended)"
                 }
             ]
         },
         {
             "state-name" : "New York",
+            "link" : "https://www.tax.ny.gov/pdf/{year}/inc/{form}.pdf",
             "forms" : [
-                {
-                    
+                {	
+                    "name" : "Form IT-2",
+                    "link" : "it2{year}_fill_in_2d",
+                    "instructions" : "it2{year}_fill_in_2d"
+                },
+                {	
+                    "name" : "Form IT-1099-R",
+                    "link" : "it1099r{year}_fill_in_2d",
+                    "instructions" : "it1099r{year}_fill_in_2d"
+                },
+                {	
+                    "name" : "Form IT-112-R",
+                    "link" : "it112r{year}_fill_in",
+                    "instructions" : "it112ri{year}"
+                },
+                {	
+                    "name" : "Form IT-119",
+                    "link" : "it119{year}_fill_in",
+                    "instructions" : "it119{year}_fill_in"
+                },
+                {	
+                    "name" : "Form IT-182",
+                    "link" : "it182{year}_fill_in",
+                    "instructions" : "it182{year}_fill_in"
+                },
+                {	
+                    "name" : "Form IT-195",
+                    "link" : "it195{year}_fill_in",
+                    "instructions" : "it195{year}_fill_in"
+                },
+                {	
+                    "name" : "Form IT-196",
+                    "link" : "it196{year}_fill_in",
+                    "instructions" : "it196{year}_fill_in"
+                },
+                {	
+                    "name" : "Form IT-201",
+                    "link" : "t201{year}_fill_in_2d",
+                    "instructions" : "it201i{year}"
+                },
+                {	
+                    "name" : "Form IT-201-ATT",
+                    "link" : "it201att{year}_fill_in",
+                    "instructions" : "it201i{year}"
+                },
+                {	
+                    "name" : "Form IT-201-V",
+                    "link" : "it201v_1220_fill_in",
+                    "instructions" : "it201v_1220_fill_in"
+                },
+                {	
+                    "name" : "Form IT-203",
+                    "link" : "it203{year}_fill_in_2d",
+                    "instructions" : "it203i{year}"
+                },
+                {	
+                    "name" : "Form IT-203-ATT",
+                    "link" : "it203att{year}_fill_in",
+                    "instructions" : "it203i{year}"
+                },
+                {	
+                    "name" : "Form IT-203-A",
+                    "link" : "it203a_1216_fill_in",
+                    "instructions" : "it203i{year}"
+                },
+                {	
+                    "name" : "Form IT-203-B",
+                    "link" : "it203b{year}_fill_in",
+                    "instructions" : "it203i{year}"
+                },
+                {	
+                    "name" : "Form IT-203-C",
+                    "link" : "it203c_815_fill_in",
+                    "instructions" : "it203c_815_fill_in"
+                },
+                {	
+                    "name" : "Form IT-209",
+                    "link" : "it209{year}_fill_in",
+                    "instructions" : "it209i{year}"
+                },
+                {	
+                    "name" : "Form IT-212",
+                    "link" : "it212{year}_fill_in",
+                    "instructions" : "it212i{year}"
+                },
+                {	
+                    "name" : "Form IT-213",
+                    "link" : "it213{year}_fill_in_2d",
+                    "instructions" : "it213i{year}"
+                },
+                {	
+                    "name" : "Form IT-213-ATT",
+                    "link" : "it213att{year}_fill_in",
+                    "instructions" : "it213i{year}"
+                },
+                {	
+                    "name" : "Form IT-214",
+                    "link" : "it214{year}_fill_in_2d",
+                    "instructions" : "it214i{year}"
+                },
+                {	
+                    "name" : "Form IT-215",
+                    "link" : "it215{year}_fill_in",
+                    "instructions" : "it215i{year}"
+                },
+                {	
+                    "name" : "Form IT-216",
+                    "link" : "it216{year}_fill_in",
+                    "instructions" : "it216i{year}"
+                },
+                {	
+                    "name" : "Form IT-217",
+                    "link" : "it217{year}_fill_in",
+                    "instructions" : "it217i{year}"
+                },
+                {	
+                    "name" : "Form IT-219",
+                    "link" : "it219{year}_fill_in",
+                    "instructions" : "it219i{year}"
+                },
+                {	
+                    "name" : "Form IT-225",
+                    "link" : "it225{year}_fill_in",
+                    "instructions" : "it225i{year}"
+                },
+                {	
+                    "name" : "Form IT-226",
+                    "link" : "it226{year}_fill_in",
+                    "instructions" : "it226{year}_fill_in"
+                },
+                {	
+                    "name" : "Form IT-227",
+                    "link" : "it227{year}_fill_in",
+                    "instructions" : "it227{year}_fill_in"
+                },
+                {	
+                    "name" : "Form IT-228",
+                    "link" : "it228{year}_fill_in",
+                    "instructions" : "it228i{year}"
+                },
+                {	
+                    "name" : "Form IT-241",
+                    "link" : "it241{year}_fill_in",
+                    "instructions" : "it241i{year}"
+                },
+                {	
+                    "name" : "Form IT-242",
+                    "link" : "it242{year}_fill_in",
+                    "instructions" : "it242i{year}"
+                },
+                {	
+                    "name" : "Form IT-245",
+                    "link" : "it245{year}_fill_in",
+                    "instructions" : "it245{year}_fill_in"
+                },
+                {	
+                    "name" : "Form IT-249",
+                    "link" : "it249{year}_fill_in",
+                    "instructions" : "it249i{year}"
+                },
+                {	
+                    "name" : "Form IT-255",
+                    "link" : "it255{year}_fill_in",
+                    "instructions" : "it255i{year}"
+                },
+                {	
+                    "name" : "Form IT-256",
+                    "link" : "it256{year}_fill_in",
+                    "instructions" : "it256i{year}"
+                },
+                {	
+                    "name" : "Form IT-257",
+                    "link" : "it257{year}_fill_in",
+                    "instructions" : "it257{year}_fill_in"
+                },
+                {	
+                    "name" : "Form IT-258",
+                    "link" : "it258{year}_fill_in",
+                    "instructions" : "it258{year}_fill_in"
+                },
+                {	
+                    "name" : "Form IT-272",
+                    "link" : "it272{year}_fill_in",
+                    "instructions" : "it272i{year}"
+                },
+                {	
+                    "name" : "Form IT-280",
+                    "link" : "it280{year}_fill_in",
+                    "instructions" : "it280{year}_fill_in"
+                },
+                {	
+                    "name" : "Form IT-360.1",
+                    "link" : "it360_1{year}_fill_in",
+                    "instructions" : "it360_1i{year}"
+                },
+                {	
+                    "name" : "Form IT-370",
+                    "link" : "it370{year}_fill_in",
+                    "instructions" : "it370i{year}"
+                },
+                {	
+                    "name" : "Form IT-398",
+                    "link" : "it398{year}_fill_in",
+                    "instructions" : "it398{year}_fill_in"
+                },
+                {	
+                    "name" : "Form IT-2105",
+                    "link" : "it2105{year}_fill_in",
+                    "instructions" : "it2105i{year}"
+                },
+                {	
+                    "name" : "Form IT-2105.9",
+                    "link" : "it2105_9{year}_fill_in",
+                    "instructions" : "it2105_9i{year}"
+                },
+                {	
+                    "name" : "Form IT-201-X (amended)",
+                    "link" : "it201x{year}_fill_in_2d",
+                    "instructions" : "it201xi{year}"
+                },
+                {	
+                    "name" : "Form IT-203-X (amended)",
+                    "link" : "it203x{year}_fill_in",
+                    "instructions" : "it203xi{year}"
+                },
+                {	
+                    "name" : "Form TR-579-IT",
+                    "link" : "",
+                    "instructions" : ""
+                },
+                {	
+                    "name" : "Form TR-579.1-IT",
+                    "link" : "",
+                    "instructions" : ""
+                },
+                {	
+                    "name" : "Form Y-203",
+                    "link" : "y203{year}_fill_in",
+                    "instructions" : "y203i{year}"
+                },
+                {	
+                    "name" : "Form IT-558",
+                    "link" : "it558{year}_fill_in_2d",
+                    "instructions" : "it558i{year}"
+                },
+                {	
+                    "name" : "Form IT-611.2",
+                    "link" : "it611_2{year}_fill_in",
+                    "instructions" : "it611_2i{year}"
+                },
+                {	
+                    "name" : "Form IT-641",
+                    "link" : "it641{year}_fill_in",
+                    "instructions" : "it641i{year}"
+                },
+                {	
+                    "name" : "Form IT-649",
+                    "link" : "it649{year}_fill_in",
+                    "instructions" : "it649i{year}"
+                },
+                {	
+                    "name" : "Form IT-651",
+                    "link" : "it651{year}_fill_in",
+                    "instructions" : "it651i{year}"
+                },
+                {	
+                    "name" : "Form IT-652",
+                    "link" : "it652{year}_fill_in",
+                    "instructions" : "it652{year}_fill_in"
+                },
+                {	
+                    "name" : "Form NYC-210",
+                    "link" : "nyc210{year}_fill_in",
+                    "instructions" : "nyc210i{year}"
                 }
             ]
         },

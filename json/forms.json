@@ -3241,81 +3241,615 @@
         },
         {
             "state-name" : "North Carolina",
+            "link" : "https://www.ncdor.gov/taxes-forms/individual-income-tax-forms-instructions#{year}",
             "forms" : [
+                {	
+                    "name" : "Form D400"
+                },
                 {
-                    
+                    "name" : "Form D400 Schedule S"
+                },
+                {
+                    "name" : "Form D400 Schedule A"
+                },
+                {
+                    "name" : "Form D400TC"
+                },
+                {
+                    "name" : "Form D400PN"
+                },
+                {
+                    "name" : "Form D400PN-1"
+                },
+                {
+                    "name" : "Form D400V"
+                },
+                {
+                    "name" : "Form NC-40"
+                },
+                {
+                    "name" : "Form D400 Schedule AM"
+                },
+                {
+                    "name" : "Form D400V amended"
                 }
             ]
         },
         {
             "state-name" : "North Dakota",
+            "link" : "https://www.tax.nd.gov/sites/www/files/documents/forms/individual/{year}-iit/{form}.pdf",
             "forms" : [
-                {
-                    
+                {	
+                    "name" : "Form ND-1",
+                    "link" : "form-nd-1-{year}",
+                    "instructions" : "individual-income-tax-booklet-{year}"
+                },
+                {	
+                    "name" : "Schedule ND-1CR",
+                    "link" : "schedule-nd-1cr-{year}",
+                    "instructions" : "schedule-nd-1cr-{year}"
+                },
+                {	
+                    "name" : "Schedule ND-1SA",
+                    "link" : "schedule-nd-1sa-{year}",
+                    "instructions" : "schedule-nd-1sa-{year}"
+                },
+                {	
+                    "name" : "Schedule ND-1TC",
+                    "link" : "schedule-nd-1tc-{year}",
+                    "instructions" : "schedule-nd-1tc-{year}"
+                },
+                {	
+                    "name" : "Schedule ND-1UT",
+                    "link" : "schedule-nd-1ut-{year}",
+                    "instructions" : "schedule-nd-1ut-{year}"
+                },
+                {	
+                    "name" : "Schedule ND-1FC",
+                    "link" : "schedule-nd-1fc-{year}",
+                    "instructions" : "schedule-nd-1fc-{year}"
+                },
+                {	
+                    "name" : "Schedule ND-1NR",
+                    "link" : "schedule-nd-1nr-{year}",
+                    "instructions" : "schedule-nd-1nr-{year}"
+                },
+                {	
+                    "name" : "Form ND-1V",
+                    "link" : "form-nd-1v-{year}",
+                    "instructions" : "form-nd-1v-{year}"
+                },
+                {	
+                    "name" : "Form ND-1PRV",
+                    "link" : "form-nd-1prv-{year}",
+                    "instructions" : "form-nd-1prv-{year}"
+                },
+                {	
+                    "name" : "Form ND-1ES",
+                    "link" : "form-nd-1es-{year}",
+                    "instructions" : "form-nd-1es-{year}"
                 }
             ]
         },
         {
             "state-name" : "Ohio",
+            "link" : "https://tax.ohio.gov/wps/portal/gov/tax/individual/get-a-form",
             "forms" : [
+                {	
+                    "name" : "Form IT1040"
+                },
                 {
-                    
+                    "name" : "Schedule A"
+                },
+                {
+                    "name" : "Schedule of Credits"
+                },
+                {
+                    "name" : "Schedule J"
+                },
+                {
+                    "name" : "Schedule of Ohio Withholding"
+                },
+                {
+                    "name" : "Schedule IT BUS"
+                },
+                {
+                    "name" : "Form SD100"
+                },
+                {
+                    "name" : "Schedule of School District Withholding"
+                },
+                {
+                    "name" : "Form IT40P"
+                },
+                {
+                    "name" : "Form IT NRC"
+                },
+                {
+                    "name" : "Form IT RC"
+                },
+                {
+                    "name" : "IT/SD 2210"
+                },
+                {
+                    "name" : "Form SD40P"
+                },
+                {
+                    "name" : "Form IT1040ES"
+                },
+                {
+                    "name" : "Form SD100ES"
+                },
+                {
+                    "name" : "Form IT40XP (amended)"
+                },
+                {
+                    "name" : "Form SD40XP (amended)"
+                },
+                {
+                    "name" : "Form IT RE (amended)"
+                },
+                {
+                    "name" : "Form SD RE (amended)"
+                },
+                {
+                    "name" : "Unreimbursed Health Care Expenses Worksheet"
+                },
+                {
+                    "name" : "Medical Savings Account Worksheet"
+                },
+                {
+                    "name" : "Lump Sum Retirement and Distribution Credit Worksheets"
                 }
             ]
         },
         {
             "state-name" : "Oklahoma",
+            "link" : "https://oklahoma.gov/content/dam/ok/en/tax/documents/forms/individuals/{year}/{form}.pdf",
             "forms" : [
-                {
-                    
+                {	
+                    "name" : "Form 511 (all schedules)",
+                    "link" : "511-Pkt{year}",
+                    "instructions" : "511-Pkt{year}"
+                },
+                {	
+                    "name" : "Form 511NR (all schedules)",
+                    "link" : "511-NR-Pkt{year}",
+                    "instructions" : "511-NR-Pkt{year}"
+                
+                },
+                {	
+                    "name" : "Form 511CR",
+                    "link" : "511-CR{year}",
+                    "instructions" : "511-Pkt{year}"
+                
+                },
+                {	
+                    "name" : "Form 511TX",
+                    "link" : "511-TX{year}",
+                    "instructions" : "511-TX{year}"
+                
+                },
+                {	
+                    "name" : "Form 511W",
+                    "link" : "",
+                    "instructions" : ""
+                },
+                {	
+                    "name" : "Form 538-S",
+                    "link" : "538-S{year}",
+                    "instructions" : "538-S{year}"
+                },
+                {	
+                    "name" : "Form 538-H",
+                    "link" : "538-H{year}",
+                    "instructions" : "538-H{year}"
+                },
+                {	
+                    "name" : "Form 511EF",
+                    "link" : "511-EF{year}",
+                    "instructions" : "511-EF{year}"
+                },
+                {	
+                    "name" : "Form 511-V",
+                    "link" : "511-V{year}",
+                    "instructions" : "511-V{year}"
+                },
+                {	
+                    "name" : "Form OW-8-ES",
+                    "link" : "OW-8-ES{year}"
                 }
             ]
         },
         {
             "state-name" : "Oregon",
+            "link" : "https://www.oregon.gov/dor/forms/FormsPubs/{form}_{year}.pdf",
             "forms" : [
-                {
-                    
+                {	
+                    "name" : "Form OR-40",
+                    "link" : "form-or-40_101-040",
+                    "instructions" : "form-or-40-inst_101-040-1"
+                },
+                {	
+                    "name" : "Form OR-40-P",
+                    "link" : "form-or-40-p_101-055",
+                    "instructions" : "form-or-40-n_or-40-p-inst_101-048-1"
+                },
+                {	
+                    "name" : "Form OR-40-N",
+                    "link" : "form-or-40-n_101-048",
+                    "instructions" : "form-or-40-n_or-40-p-inst_101-048-1"
+                },
+                {	
+                    "name" : "Schedule OR-DONATE",
+                    "link" : "schedule-or-donate_101-058",
+                    "instructions" : "schedule-or-donate_101-058"
+                },
+                {	
+                    "name" : "Schedule OR-A",
+                    "link" : "schedule-or-a_101-007",
+                    "instructions" : "schedule-or-a-inst_101-007-1"
+                },
+                {	
+                    "name" : "Schedule OR-ASC",
+                    "link" : "schedule-or-asc_101-063",
+                    "instructions" : "sch_or-asc_or-asc-np-inst_101-063-1"
+                },
+                {	
+                    "name" : "Schedule OR-ASC-NP",
+                    "link" : "schedule-or-asc-np_101-064",
+                    "instructions" : "sch_or-asc_or-asc-np-inst_101-063-1"
+                },
+                {	
+                    "name" : "Schedule OR-WFHDC",
+                    "link" : "schedule-or-wfhdc_101-195",
+                    "instructions" : "schedule-or-wfhdc-inst_101-195-1"
+                },
+                {	
+                    "name" : "Schedule OR-ADD-DEP",
+                    "link" : "schedule-or-add-dep_101-187",
+                    "instructions" : "schedule-or-add-dep_101-187"
+                },
+                {	
+                    "name" : "Form OR-STI",
+                    "link" : "form-or-sti_101-071",
+                    "instructions" : "form-or-sti-instructions_101-071-1"
                 }
             ]
         },
         {
             "state-name" : "Pennsylvania",
+            "link" : "https://www.revenue.pa.gov/FormsandPublications/FormsforIndividuals/PIT/Documents/{form}.pdf",
             "forms" : [
-                {
-                    
+                {	
+                    "name" : "Form PA-40",
+                    "link" : "{year}/{year}_pa-40",
+                    "instructions" : "{year}/{year}_pa-40in"
+                },
+                {	
+                    "name" : "Schedule A",
+                    "link" : "{year}/{year}_pa-40a",
+                    "instructions" : "{year}/{year}_pa-40a"
+                },
+                {	
+                    "name" : "Schedule B",
+                    "link" : "{year}/{year}_pa-40b",
+                    "instructions" : "{year}/{year}_pa-40b"
+                },
+                {	
+                    "name" : "Schedule C",
+                    "link" : "pa-40c",
+                    "instructions" : "pa-40c"
+                },
+                {	
+                    "name" : "Schedule D",
+                    "link" : "{year}/{year}_pa-40d",
+                    "instructions" : "{year}/{year}_pa-40d"
+                },
+                {	
+                    "name" : "Schedule D-1",
+                    "link" : "rev-1689",
+                    "instructions" : "rev-1689"
+                },
+                {	
+                    "name" : "Schedule E",
+                    "link" : "{year}/{year}_pa-40e",
+                    "instructions" : "{year}/{year}_pa-40e"
+                },
+                {	
+                    "name" : "Schedule F",
+                    "link" : "pa-40f",
+                    "instructions" : "pa-40f"
+                },
+                {	
+                    "name" : "Schedule G-L",
+                    "link" : "pa-40_pa-41g-l",
+                    "instructions" : "pa-40_pa-41g-l"
+                },
+                {	
+                    "name" : "Schedule J",
+                    "link" : "{year}/{year}_pa-40j",
+                    "instructions" : "{year}/{year}_pa-40j"
+                },
+                {	
+                    "name" : "Schedule NRH",
+                    "link" : "pa-40nrh",
+                    "instructions" : "pa-40nrh"
+                },
+                {	
+                    "name" : "Schedule O",
+                    "link" : "{year}/{year}_pa-40o",
+                    "instructions" : "{year}/{year}_pa-40o"
+                },
+                {	
+                    "name" : "Schedule P",
+                    "link" : "{year}/{year}_pa-40p",
+                    "instructions" : "{year}/{year}_pa-40p"
+                },
+                {	
+                    "name" : "Schedule SP",
+                    "link" : "{year}/{year}_pa-40sp",
+                    "instructions" : "{year}/{year}_pa-40sp"
+                },
+                {	
+                    "name" : "Schedule T",
+                    "link" : "{year}/{year}_pa-40t",
+                    "instructions" : "{year}/{year}_pa-40t"
+                },
+                {	
+                    "name" : "Schedule UE",
+                    "link" : "{year}/{year}_pa-40ue",
+                    "instructions" : "{year}/{year}_pa-40ue"
+                },
+                {	
+                    "name" : "Schedule 19",
+                    "link" : "pa-19",
+                    "instructions" : "pa-19"
+                },
+                {	
+                    "name" : "Form PA-40ES",
+                    "link" : "{year}/{year}_pa-40es",
+                    "instructions" : "{year}/{year}-40es_i"
+                },
+                {	
+                    "name" : "Form PA-8453",
+                    "link" : "{year}/{year}_pa-8453",
+                    "instructions" : "{year}/{year}_pa-8453"
+                },
+                {	
+                    "name" : "Form PA-40X (amended)",
+                    "link" : "{year}/{year}_pa-40x",
+                    "instructions" : "{year}/{year}_pa-40x"
+                },
+                {	
+                    "name" : "Form REV-1630",
+                    "link" : "{year}/{year}_rev-1630",
+                    "instructions" : "{year}/{year}_rev-1630"
+                },
+                {	
+                    "name" : "Form REV-1630A",
+                    "link" : "{year}/{year}_rev-1630a",
+                    "instructions" : "{year}/{year}_rev-1630a"
                 }
             ]
         },
         {
             "state-name" : "Rhode Island",
+            "link-prior" : "https://tax.ri.gov/forms/prior-year-tax/year-ending-1231{year}",
+            "link-current" : "https://tax.ri.gov/forms/individual-tax-forms/personal-income-tax-forms",
             "forms" : [
+                {	
+                    "name" : "Form RI-1040"
+                },
                 {
-                    
+                    "name" : "Form RI-1040NR"
+                },
+                {
+                    "name" : "Schedule II"
+                },
+                {
+                    "name" : "Schedule III"
+                },
+                {
+                    "name" : "Schedule E"
+                },
+                {
+                    "name" : "Schedule M"
+                },
+                {
+                    "name" : "Schedule CR"
+                },
+                {
+                    "name" : "Schedule W"
+                },
+                {
+                    "name" : "Schedule U"
+                },
+                {
+                    "name" : "Form IND-HEALTH"
+                },
+                {
+                    "name" : "Form RI-1040MU"
+                },
+                {
+                    "name" : "Form RI-1040NR-MU"
+                },
+                {
+                    "name" : "Form RI-1040H"
+                },
+                {
+                    "name" : "Form RI-1040V"
+                },
+                {
+                    "name" : "Form RI-1040ES"
                 }
             ]
         },
         {
             "state-name" : "South Carolina",
+            "link" : "https://dor.sc.gov/forms-site/Forms/{form}_{year}.pdf",
             "forms" : [
-                {
-                    
+                {	
+                    "name" : "Form SC1040",
+                    "link" : "SC1040",
+                    "instructions" : "SC1040Instr"
+                },
+                {	
+                    "name" : "Form SC1040TC",
+                    "link" : "SC1040TC",
+                    "instructions" : "SC1040TC"
+                },
+                {	
+                    "name" : "Form SC1040-V",
+                    "link" : "SC1040V",
+                    "instructions" : "SC1040V"
+                },
+                {	
+                    "name" : "Form SC1040ES",
+                    "link" : "SC1040ES",
+                    "instructions" : "SC1040ES"
+                },
+                {	
+                    "name" : "Schedule AMD",
+                    "link" : "SCHAMD",
+                    "instructions" : "SCHAMD"
+                },
+                {	
+                    "name" : "Schedule NR",
+                    "link" : "SchNR",
+                    "instructions" : "SchNRInst"
+                },
+                {	
+                    "name" : "Form I-319",
+                    "link" : "I319",
+                    "instructions" : "I319"
+                },
+                {	
+                    "name" : "Form I-330",
+                    "link" : "I319",
+                    "instructions" : "I319"
+                },
+                {	
+                    "name" : "Form I-333",
+                    "link" : "I333",
+                    "instructions" : "I333"
+                },
+                {	
+                    "name" : "Form I-334",
+                    "link" : "I334",
+                    "instructions" : "I334"
+                },
+                {	
+                    "name" : "Form I-360",
+                    "link" : "I360",
+                    "instructions" : "I360"
+                },
+                {	
+                    "name" : "Form I-385",
+                    "link" : "I385",
+                    "instructions" : "I385"
                 }
             ]
         },
         {
             "state-name" : "Utah",
+            "link" : "https://tax.utah.gov/forms/{year}/{form}.pdf",
             "forms" : [
-                {
-                    
+                {	
+                    "name" : "Form TC-40",
+                    "link" : "tc-40",
+                    "instructions" : "tc-40inst"
+                },
+                {	
+                    "name" : "Form TC-40A",
+                    "link" : "tc-40a",
+                    "instructions" : "tc-40inst"
+                },
+                {	
+                    "name" : "Form TC-40B",
+                    "link" : "tc-40b",
+                    "instructions" : "tc-40inst"
+                },
+                {	
+                    "name" : "Form TC-40C",
+                    "link" : "tc-40c",
+                    "instructions" : "tc-40inst"
+                },
+                {	
+                    "name" : "Form TC-40S",
+                    "link" : "tc-40s",
+                    "instructions" : "tc-40inst"
+                },
+                {	
+                    "name" : "Form TC-40W",
+                    "link" : "tc-40w",
+                    "instructions" : "tc-40inst"
+                },
+                {	
+                    "name" : "Form TC-40LIS",
+                    "link" : "tc-40lis",
+                    "instructions" : "tc-40lis"
+                },
+                {	
+                    "name" : "Form TC-546",
+                    "link" : "tc-546",
+                    "instructions" : "tc-546"
+                },
+                {	
+                    "name" : "Form TC-547",
+                    "link" : "tc-547",
+                    "instructions" : "tc-547"
                 }
             ]
         },
         {
             "state-name" : "Vermont",
+            "link" : "https://tax.vermont.gov/sites/tax/files/documents/{form}-{year}.pdf",
             "forms" : [
-                {
-                    
+                {	
+                    "name" : "Form IN-111",
+                    "link" : "IN-111",
+                    "instructions" : "IN-111%20Instr"
+                },
+                {	
+                    "name" : "Form IN-112",
+                    "link" : "IN-112",
+                    "instructions" : "IN-112%20Instr"
+                },
+                {	
+                    "name" : "Form IN-113",
+                    "link" : "IN-113",
+                    "instructions" : "IN-113%20Instr"
+                },
+                {	
+                    "name" : "Form IN-114",
+                    "link" : "IN-114",
+                    "instructions" : "IN-114%20Instr"
+                },
+                {	
+                    "name" : "Form IN-116",
+                    "link" : "IN-116",
+                    "instructions" : "IN-116%20Instr"
+                },
+                {	
+                    "name" : "Form IN-117",
+                    "link" : "IN-117",
+                    "instructions" : "IN-117%20Instr"
+                },
+                {	
+                    "name" : "Form IN-119",
+                    "link" : "IN-119",
+                    "instructions" : "IN-119%20Instr"
+                },
+                {	
+                    "name" : "Form HS-122",
+                    "link" : "HS-122",
+                    "instructions" : "HS-122%20Instr"
+                },
+                {	
+                    "name" : "Form IN-153",
+                    "link" : "IN-153",
+                    "instructions" : "IN-153%20Instr"
                 }
             ]
         },

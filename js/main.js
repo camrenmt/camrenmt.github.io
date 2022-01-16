@@ -125,7 +125,33 @@ function createLink() {
             link = createLinkNm(stateInd);
         } else if(stateInd == 28) {
             link = createLinkNy(stateInd, formType, form, year);
-        } 
+        } else if(stateInd == 29) {
+            link = createLinkNc(stateInd, year);
+        } else if(stateInd == 30) {
+            link = createLinkNd(stateInd, formType, form, year);
+        } else if(stateInd == 31) {
+            link = createLinkOh(stateInd);
+        } else if(stateInd == 32) {
+            link = createLinkOk(stateInd, form, year);
+        } else if(stateInd == 33) {
+            link = createLinkOr(stateInd, formType, form, year);
+        } else if(stateInd == 34) {
+            link = createLinkPa(stateInd, formType, form, year);
+        } else if(stateInd == 35) {
+            link = createLinkRi(stateInd, year);
+        } else if(stateInd == 36) {
+            link = createLinkSc(stateInd, formType, form, year);
+        } else if(stateInd == 37) {
+            link = createLinkUt(stateInd, formType, form, year);
+        } else if(stateInd == 38) {
+            link = createLinkVt(stateInd, formType, form, year);
+        } else if(stateInd == 39) {
+            link = createLinkVi(stateInd, formType, form, year);
+        } else if(stateInd == 40) {
+            link = createLinkWv(stateInd, formType, form, year);
+        } else if(stateInd == 41) {
+            link = createLinkWi(stateInd, formType, form, year);
+        }
     }
     
     if (link) {
@@ -491,4 +517,104 @@ function createLinkNy(stateInd, type, form, year) {
 
     return link.replace("{form}", formName)
 }
+function createLinkNc(stateInd, year) {
+    return jsonData.states[stateInd]['link'].replace("{year}", year);
+}
 
+function createLinkNd(stateInd, type, form, year) {
+    var link = jsonData.states[stateInd]['link'].replace("{year}", year);
+
+    if (type === "i") type = "instructions";
+    else if (type === "f") type = "link";
+    else return; 
+
+    var formName = jsonData.states[stateInd]['forms'][form][type].replace("{year}", year);
+
+    return link.replace("{form}", formName)
+}
+
+function createLinkOh(stateInd) {
+    return jsonData.states[stateInd]['link'];
+}
+
+function createLinkOk(stateInd, form, year) {
+    var link = jsonData.states[stateInd]['link'];
+    var formName;
+
+    if (year == YEAR_CURRENT) {
+        link = link.replace("{year}", "current");
+        formName = jsonData.states[stateInd]['forms'][form]['link'].replace("{year}", "");
+
+    } else {
+        link = link.replace("{year}", `past-year/${year}`);
+        formName = jsonData.states[stateInd]['forms'][form]['link'].replace("{year}", '-' + year);
+    }
+    
+    return link.replace("{form}", formName);
+}
+
+function createLinkOr(stateInd, type, form, year) {
+    var link = jsonData.states[stateInd]['link'].replace("{year}", year);
+
+    if (type === "i") type = "instructions";
+    else if (type === "f") type = "link";
+    else return; 
+
+    var formName = jsonData.states[stateInd]['forms'][form][type];
+
+    return link.replace("{form}", formName)
+}
+
+function createLinkPa(stateInd, type, form, year) {
+    var link = jsonData.states[stateInd]['link'].replace("{year}", year);
+
+    if (type === "i") type = "instructions";
+    else if (type === "f") type = "link";
+    else return; 
+
+    var formName = jsonData.states[stateInd]['forms'][form][type].replace("{year}/{year}", year + "/" + year);
+
+    return link.replace("{form}", formName)
+}
+
+function createLinkRi(stateInd, year) {
+    var type = "link-current";
+    if (year != YEAR_CURRENT) {
+        type = "link-prior";
+    }
+    return link = jsonData.states[stateInd][type].replace("{year}", year);
+}
+
+function createLinkSc(stateInd, type, form, year) {
+    var link = jsonData.states[stateInd]['link'].replace("{year}", year);
+
+    if (type === "i") type = "instructions";
+    else if (type === "f") type = "link";
+    else return; 
+
+    var formName = jsonData.states[stateInd]['forms'][form][type];
+    return link.replace("{form}", formName);
+}
+
+function createLinkUt(stateInd, type, form, year) {
+    if (year == YEAR_CURRENT) year = "current";
+    var link = jsonData.states[stateInd]['link'].replace("{year}", year);
+
+    if (type === "i") type = "instructions";
+    else if (type === "f") type = "link";
+    else return; 
+
+    var formName = jsonData.states[stateInd]['forms'][form][type];
+    return link.replace("{form}", formName);
+}
+
+function createLinkVt(stateInd, type, form, year) {
+    var link = jsonData.states[stateInd]['link'].replace("{year}", year);
+
+    if (type === "i") type = "instructions";
+    else if (type === "f") type = "link";
+    else return; 
+
+    var formName = jsonData.states[stateInd]['forms'][form][type];
+    return link.replace("{form}", formName);
+}

@@ -54,6 +54,7 @@ body {
     white-space: nowrap;
     overflow: hidden;
     text-align: center;
+    resize: none;
 }
 
 .section_wrapper {

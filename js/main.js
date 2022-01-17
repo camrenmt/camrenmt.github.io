@@ -25,6 +25,8 @@ window.onload = function() {
 
     if (fedStateSelect.selectedOptions[0].value === "fed") fillFed;
     else if (fedStateSelect.selctedOptions[0].value === "state") fillStates;
+
+    //document.getElementById('link-text').addEventListener("click", copyLink);
    
 }
 

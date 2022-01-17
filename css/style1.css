@@ -57,6 +57,11 @@ body {
     resize: none;
 }
 
+#search-wrapper {
+    font-size: 14px;
+    text-align: center;
+}
+
 .section_wrapper {
     justify-content: center;
 }

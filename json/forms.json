@@ -1,9 +1,10 @@
 {
+    "fed-search" : "https://www.irs.gov/forms-pubs-search",
     "federal" : [
         {
             "name" : "Form 1040",
             "f-value" : "1040",
-            "i-value" : "1040gi"
+            "i-value" : "i1040gi"
         },
         {
             "name" : "Form 1040-SR",
@@ -629,6 +630,7 @@
     "states" : [
         {
             "state-name" : "Alabama",
+            "search" : "https://revenue.alabama.gov/forms/",
             "forms" : [
                 {
                     "name" : "Form 40",
@@ -961,6 +963,7 @@
         },
         {
             "state-name" : "Arizona",
+            "search" : "https://azdor.gov/forms/individual",
             "forms" : [
                 {
                     "name" : "Form 140",
@@ -1050,26 +1053,28 @@
         },
         {
             "state-name" : "Arkansas",
+            "link" : "https://www.dfa.arkansas.gov/images/uploads/incomeTaxOffice/{form}.pdf",
+            "search" : "https://www.dfa.arkansas.gov/income-tax/individual-income-tax/forms/",
             "forms" : [
                 {	
                     "name" : "AR1000F",
-                    "link" : "{year}_AR1000F_FullYearResidentIndividualIncomeTaxReturn.pdf",
-                    "instructions" : "{year}_AR1000F_and_AR1000NR_Instructions.pdf"
+                    "link" : "{year}_AR1000F_FullYearResidentIndividualIncomeTaxReturn",
+                    "instructions" : "{year}_AR1000F_and_AR1000NR_Instructions"
                 },
                 {
                     "name" : "AR1000F (Amended)",
-                    "link" : "{year}_AR1000F_FullYearResidentIndividualIncomeTaxReturn.pdf",
-                    "instructions" : "{year}_AR1000F_and_AR1000NR_Instructions.pdf"
+                    "link" : "{year}_AR1000F_FullYearResidentIndividualIncomeTaxReturn",
+                    "instructions" : "{year}_AR1000F_and_AR1000NR_Instructions"
                 },
                 {
                     "name" : "AR1000NR",
-                    "link" : "{year}_AR1000NR_PartYear_or_Non-ResidentIndividualIncomeTaxReturn.pdf",
-                    "instructions" : "{year}_AR1000F_and_AR1000NR_Instructions.pdf"
+                    "link" : "{year}_AR1000NR_PartYear_or_Non-ResidentIndividualIncomeTaxReturn",
+                    "instructions" : "{year}_AR1000F_and_AR1000NR_Instructions"
                 },
                 {
                     "name" : "AR1000NR (Amended)",
-                    "link" : "{year}_AR1000NR_PartYear_or_Non-ResidentIndividualIncomeTaxReturn.pdf",
-                    "instructions" : "{year}_AR1000F_and_AR1000NR_Instructions.pdf"
+                    "link" : "{year}_AR1000NR_PartYear_or_Non-ResidentIndividualIncomeTaxReturn",
+                    "instructions" : "{year}_AR1000F_and_AR1000NR_Instructions"
                 },
                 {
                     "name" : "AR TAX PMT",
@@ -1078,118 +1083,105 @@
                 },
                 {
                     "name" : "AR1000ADJ",
-                    "link" : "{year}_AR1000ADJ_AdjustmentsSchedule.pdf",
-                    "instructions" : "{year}_AR1000ADJ_AdjustmentsSchedule.pdf"
+                    "link" : "{year}_AR1000ADJ_AdjustmentsSchedule",
+                    "instructions" : "{year}_AR1000ADJ_AdjustmentsSchedule"
                 },
                 {
                     "name" : "AR3",
-                    "link" : "{year}_AR4_Interest_and_Dividend.pdf",
-                    "instructions" : "{year}_AR1000F_and_AR1000NR_Instructions.pdf"
+                    "link" : "{year}_AR4_Interest_and_Dividend",
+                    "instructions" : "{year}_AR1000F_and_AR1000NR_Instructions"
                 },
                 {
                     "name" : "AR4",
-                    "link" : "{year}_AR4_Interest_and_Dividend.pdf",
-                    "instructions" : "{year}_AR4_Interest_and_Dividend.pdf"
+                    "link" : "{year}_AR4_Interest_and_Dividend",
+                    "instructions" : "{year}_AR4_Interest_and_Dividend"
                 },
                 {
                     "name" : "AR1075",
-                    "link" : "AR1075_{year}.pdf",
-                    "instructions" : "AR1075_{year}.pdf"
+                    "link" : "AR1075_{year}",
+                    "instructions" : "AR1075_{year}"
                 },
                 {
                     "name" : "AR1000-CO",
-                    "link" : "{year}_AR1000-CO_Check_off_Contributions.pdf",
-                    "instructions" : "{year}_AR1000-CO_Check_off_Contributions.pdf"
+                    "link" : "{year}_AR1000-CO_Check_off_Contributions",
+                    "instructions" : "{year}_AR1000-CO_Check_off_Contributions"
                 },
                 {
                     "name" : "AR1000D",
-                    "link" : "{year}_AR1000D_CapitalGains.pdf",
-                    "instructions" : "{year}_AR1000D_CapitalGains.pdf"
+                    "link" : "{year}_AR1000D_CapitalGains",
+                    "instructions" : "{year}_AR1000D_CapitalGains"
                 },
                 {
                     "name" : "AR1000-OD",
-                    "link" : "{year}_AR1000-OD_OrganDonorDonation.pdf",
-                    "instructions" : "{year}_AR1000-OD_OrganDonorDonation.pdf"
+                    "link" : "{year}_AR1000-OD_OrganDonorDonation",
+                    "instructions" : "{year}_AR1000-OD_OrganDonorDonation"
                 },
                 {
                     "name" : "AR1000CE",
-                    "link" : "{year}_AR1000CE_IndividualTeachersQualifiedClassroomInvestmentExpense.pdf",
-                    "instructions" : "{year}_AR1000CE_IndividualTeachersQualifiedClassroomInvestmentExpense.pdf"
+                    "link" : "{year}_AR1000CE_IndividualTeachersQualifiedClassroomInvestmentExpense",
+                    "instructions" : "{year}_AR1000CE_IndividualTeachersQualifiedClassroomInvestmentExpense"
                 },
                 {
                     "name" : "AR1113",
-                    "link" : "{year}_AR1113_PhenylketonuriaOtherMetabolicDisordersCredit.pdf",
-                    "instructions" : "{year}_AR1113_PhenylketonuriaOtherMetabolicDisordersCredit.pdf"
+                    "link" : "{year}_AR1113_PhenylketonuriaOtherMetabolicDisordersCredit",
+                    "instructions" : "{year}_AR1113_PhenylketonuriaOtherMetabolicDisordersCredit"
                 },
                 {
                     "name" : "AR1000DC",
-                    "link" : "{year}_AR1000DC_DisabledIndividualsCertificate.pdf",
-                    "instructions" : "{year}_AR1000DC_DisabledIndividualsCertificate.pdf"
-                },
-                {
-                    "name" : "ARMS",
-                    "link" : "NA",
-                    "instructions" : ""
+                    "link" : "{year}_AR1000DC_DisabledIndividualsCertificate",
+                    "instructions" : "{year}_AR1000DC_DisabledIndividualsCertificate"
                 },
                 {
                     "name" : "AR1000TC",
-                    "link" : "{year}_AR1000TC_Schedule_of_TaxCredits_andBusiness_IncentiveCredits.pdf",
-                    "instructions" : "{year}_AR1000TC_Schedule_of_TaxCredits_andBusiness_IncentiveCredits.pdf"
+                    "link" : "{year}_AR1000TC_Schedule_of_TaxCredits_andBusiness_IncentiveCredits",
+                    "instructions" : "{year}_AR1000TC_Schedule_of_TaxCredits_andBusiness_IncentiveCredits"
                 },
                 {
                     "name" : "AROI",
-                    "link" : "{year}_AR-OI_OtherIncomeLoss_and_DepreciationDifferences.pdf",
-                    "instructions" : "{year}_AR-OI_OtherIncomeLoss_and_DepreciationDifferences.pdf"
+                    "link" : "{year}_AR-OI_OtherIncomeLoss_and_DepreciationDifferences",
+                    "instructions" : "{year}_AR-OI_OtherIncomeLoss_and_DepreciationDifferences"
                 },
                 {
                     "name" : "AR2210",
-                    "link" : "{year}_AR2210_Penalty_for_Underpayment_of_EstimatedTax.pdf",
-                    "instructions" : "{year}_AR2210_Penalty_for_Underpayment_of_EstimatedTax.pdf"
+                    "link" : "{year}_AR2210_Penalty_for_Underpayment_of_EstimatedTax",
+                    "instructions" : "{year}_AR2210_Penalty_for_Underpayment_of_EstimatedTax"
                 },
                 {
                     "name" : "AR2210A",
-                    "link" : "{year}_AR2210A_AnnualizedPenalty_for_Underpayment_of_EstimatedTax.pdf",
-                    "instructions" : "{year}_AR2210A_AnnualizedPenalty_for_Underpayment_of_EstimatedTax.pdf"
+                    "link" : "{year}_AR2210A_AnnualizedPenalty_for_Underpayment_of_EstimatedTax",
+                    "instructions" : "{year}_AR2210A_AnnualizedPenalty_for_Underpayment_of_EstimatedTax"
                 },
                 {
                     "name" : "AR3903",
-                    "link" : "{year}_AR3903_MovingExpenses.pdf",
-                    "instructions" : "{year}_AR3903_MovingExpenses.pdf"
+                    "link" : "{year}_AR3903_MovingExpenses",
+                    "instructions" : "{year}_AR3903_MovingExpenses"
                 },
                 {
                     "name" : "AR4684",
-                    "link" : "{year}_AR4684_Casualties_and_Thefts.pdf",
-                    "instructions" : "{year}_AR4684_Casualties_and_Thefts.pdf"
+                    "link" : "{year}_AR4684_Casualties_and_Thefts",
+                    "instructions" : "{year}_AR4684_Casualties_and_Thefts"
                 },
                 {
                     "name" : "AR2106",
-                    "link" : "{year}_AR2106_EmployeeBusinessExpenses.pdf",
-                    "instructions" : "{year}_AR2106_EmployeeBusinessExpenses.pdf"
+                    "link" : "{year}_AR2106_EmployeeBusinessExpenses",
+                    "instructions" : "{year}_AR2106_EmployeeBusinessExpenses"
                 },
                 {
                     "name" : "AR1000V",
-                    "link" : "AR1000V_IndividualIncomeTaxPaymentVoucher_{year}.pdf",
-                    "instructions" : "AR1000V_IndividualIncomeTaxPaymentVoucher_{year}.pdf"
+                    "link" : "AR1000V_IndividualIncomeTaxPaymentVoucher_{year}",
+                    "instructions" : "AR1000V_IndividualIncomeTaxPaymentVoucher_{year}"
                 },
                 {
                     "name" : "AR1000ES",
-                    "link" : "AR1000ES_IndividualEstimatedTaxVouchers_{year}.pdf",
-                    "instructions" : "AR1000ES_IndividualEstimatedTaxVouchers_{year}.pdf"
-                },
-                {
-                    "name" : "AR8453",
-                    "link" : "NA",
-                    "instructions" : ""
-                },
-                {
-                    "name" : "AR8453OL",
-                    "link" : "NA",
-                    "instructions" : ""
+                    "link" : "AR1000ES_IndividualEstimatedTaxVouchers_{year}",
+                    "instructions" : "AR1000ES_IndividualEstimatedTaxVouchers_{year}"
                 }
             ]
         },
         {
             "state-name" : "California",
+            "link" : "https://www.ftb.ca.gov/forms/{year}/{year}-{form}",
+            "search" : "https://www.ftb.ca.gov/forms/search/",
             "forms" : [
                 {
                     "name" : "Form 540",
@@ -1375,6 +1367,7 @@
         {
             "state-name" : "Colorado",
             "link" : "https://tax.colorado.gov/{year}-individual-income-tax-forms",
+            "search" : "https://tax.colorado.gov/individual-income-tax-forms",
             "forms" : [
                 {	
                     "name" : "Form 104"
@@ -1435,6 +1428,7 @@
         {
             "state-name" : "Connecticut",
             "link" : "https://portal.ct.gov/DRS/DRS-Forms/{year}-Forms/Individual-Income-Tax-Forms",
+            "search" : "https://portal.ct.gov/DRS/DRS-Forms/Forms/DRS-Forms",
             "forms" : [
                 {	
                     "name" : "Form CT-1040"
@@ -1480,6 +1474,7 @@
         {
             "state-name" : "Delaware",
             "link" : "prior-year-personal-income-tax-forms/{year}-{year+1}",
+            "search" : "https://revenue.delaware.gov/forms/",
             "forms" : [
                 {	
                     "name" : "Form PIT-RES"
@@ -1510,6 +1505,7 @@
         {
             "state-name" : "District of Columbia",
             "link" : "https://otr.cfo.dc.gov/page/individual-income-tax-forms",
+            "search" : "https://otr.cfo.dc.gov/page/individual-income-tax-forms",
             "forms" : [
                 {	
                     "name" : "Form D-40"
@@ -1561,62 +1557,63 @@
         {
             "state-name" : "Georgia",
             "link" : "https://dor.georgia.gov/{form}",
+            "search" : "https://dor.georgia.gov/documents/forms?field_lp_form_type_target_id=36076",
             "forms" : [
                 {	
                     "name" : "Form 500",
-                    "link" : "500-individual-income-tax-return-4"
+                    "link" : "500-individual-income-tax-return"
                 },
                 {
                     "name" : "Form 500 Schedule 1",
-                    "link" : "500-individual-income-tax-return-4"
+                    "link" : "500-individual-income-tax-return"
                 },
                 {
                     "name" : "Form 500 Schedule 2",
-                    "link" : "500-individual-income-tax-return-4"
+                    "link" : "500-individual-income-tax-return"
                 },
                 {
                     "name" : "Form 500 Schedule 2B",
-                    "link" : "500-individual-income-tax-return-4"
+                    "link" : "500-individual-income-tax-return"
                 },
                 {
                     "name" : "Form 500 Schedule 3",
-                    "link" : "500-individual-income-tax-return-4"
+                    "link" : "500-individual-income-tax-return"
                 },
                 {
                     "name" : "Form IND-CR 201",
-                    "link" : "500-individual-income-tax-return-4"
+                    "link" : "500-individual-income-tax-return"
                 },
                 {
                     "name" : "Form IND-CR 202",
-                    "link" : "500-individual-income-tax-return-4"
+                    "link" : "500-individual-income-tax-return"
                 },
                 {
                     "name" : "Form IND-CR 203",
-                    "link" : "500-individual-income-tax-return-4"
+                    "link" : "500-individual-income-tax-return"
                 },
                 {
                     "name" : "Form IND-CR 204",
-                    "link" : "500-individual-income-tax-return-4"
+                    "link" : "500-individual-income-tax-return"
                 },
                 {
                     "name" : "Form IND-CR 206",
-                    "link" : "500-individual-income-tax-return-4"
+                    "link" : "500-individual-income-tax-return"
                 },
                 {
                     "name" : "Form IND-CR 207",
-                    "link" : "500-individual-income-tax-return-4"
+                    "link" : "500-individual-income-tax-return"
                 },
                 {
                     "name" : "Form IND-CR 208",
-                    "link" : "500-individual-income-tax-return-4"
+                    "link" : "500-individual-income-tax-return"
                 },
                 {
                     "name" : "Form IND-CR 209",
-                    "link" : "500-individual-income-tax-return-4"
+                    "link" : "500-individual-income-tax-return"
                 },
                 {
                     "name" : "Form IND-CR 212",
-                    "link" : "500-individual-income-tax-return-4"
+                    "link" : "500-individual-income-tax-return"
                 },
                 {
                     "name" : "Form IT-QEE-TP2",
@@ -1643,6 +1640,7 @@
         {
             "state-name" : "Hawaii",
             "link" : "https://files.hawaii.gov/tax/forms/{year}/{form}.pdf",
+            "search" : "https://tax.hawaii.gov/forms/a1_1alphalist/",
             "forms" : [
                 {
                     "name" : "Form N-11",
@@ -1694,6 +1692,7 @@
         {
             "state-name" : "Idaho",
             "link" : "https://tax.idaho.gov/search-formspublications.cfm?ch=ind&t=tt&y={year}",
+            "search" : "https://tax.idaho.gov/m-formpub.cfm",
             "forms" : [
                 {	
                     "name" : "Form 40"
@@ -1721,6 +1720,7 @@
         {
             "state-name" : "Illinois",
             "link" : "https://www2.illinois.gov/rev/forms/incometax/Pages/{year}/individual.aspx",
+            "search" : "https://www2.illinois.gov/rev/forms/incometax/Pages/individual.aspx",
             "forms" : [
                 {	
                     "name" : "Form IL-1040"
@@ -1769,6 +1769,7 @@
         {
             "state-name" : "Indiana",
             "link" : "https://www.in.gov/dor/tax-forms/{year}-individual-income-tax-forms/",
+            "search" : "https://www.in.gov/dor/tax-forms/",
             "forms" : [
                 {	
                     "name" : "Form IT-40"
@@ -1892,6 +1893,7 @@
         {
             "state-name" : "Iowa",
             "link" : "https://tax.iowa.gov/forms",
+            "search" : "https://tax.iowa.gov/forms",
             "forms" : [
                 {	
                     "name" : "Form 1040"
@@ -1947,6 +1949,7 @@
             "state-name" : "Kansas",
             "link" : "https://www.ksrevenue.gov/pdf/{form}{yr}.pdf",
             "instructions" : "ip",
+            "search" : "https://www.ksrevenue.gov/forms-ii.html",
             "forms" : [
                 {	
                     "name" : "Form K-40",
@@ -1989,6 +1992,7 @@
         {
             "state-name" : "Kentucky",
             "link" : "https://revenue.ky.gov/Get-Help/Pages/Forms.aspx",
+            "search" : "https://revenue.ky.gov/Get-Help/Pages/Forms.aspx?ctl00_ctl00_m_g_a6da1ed0_a76d_4362_9e05_11412739d7a5_ctl00_documentSearch_AppliedFilters=a499e157-f90d-4867-adae-51d6838e018c%3a7%2c%7c5b1be930-8e9f-46cc-a3f4-38adee1c42ba%3a1%2c%7c&ctl00_ctl00_m_g_a6da1ed0_a76d_4362_9e05_11412739d7a5_ctl00_documentSearch_SearchText=&ctl00_ctl00_m_g_a6da1ed0_a76d_4362_9e05_11412739d7a5_ctl00_documentSearch_ListId=b52de309-27b5-4834-bea9-bac2c35cc742",
             "forms" : [
                 {	
                     "name" : "Form 740"
@@ -2040,6 +2044,7 @@
         {
             "state-name" : "Louisiana",
             "link" : "https://revenue.louisiana.gov/Forms/ForIndividuals",
+            "search" : "https://revenue.louisiana.gov/Forms/ForIndividuals",
             "forms" : [
                 {
                     "name" : "Form IT-540"
@@ -2127,6 +2132,7 @@
         {
             "state-name" : "Maine",
             "link" : "https://www.maine.gov/revenue/tax-return-forms/individual-income-tax-{year}",
+            "search" : "https://www.maine.gov/revenue/tax-return-forms",
             "forms" : [
                 {	
                     "name" : "Form 1040ME"
@@ -2169,6 +2175,7 @@
         {
             "state-name" : "Maryland",
             "link" : "https://www.marylandtaxes.gov/forms/{yr}_forms/{form}.pdf",
+            "search" : "https://www.marylandtaxes.gov/individual/income/income-forms-index.php",
             "forms" : [
                 {	
                     "name" : "Form 502",
@@ -2255,6 +2262,7 @@
         {
             "state-name" : "Massachusetts",
             "link" : "https://www.mass.gov/doc/{year}-{form}/download",
+            "search" : "https://www.mass.gov/info-details/dor-personal-income-tax-forms-and-instructions",
             "forms" : [
                 {	
                     "name" : "Form 1",
@@ -2323,8 +2331,8 @@
                 },
                 {
                     "name" : "Schedule F",
-                    "link" : "",
-                    "instructions" : ""
+                    "link" : "schedule-f-income-apportionment",
+                    "instructions" : "form-1-instructions"
                 },
                 {
                     "name" : "Schedule FAF",
@@ -2340,11 +2348,6 @@
                     "name" : "Schedule HC-CS",
                     "link" : "schedule-hc-cs-health-care-information-continuation-sheet",
                     "instructions" : "schedule-hc-cs-health-care-information-continuation-sheet"
-                },
-                {
-                    "name" : "Schedule INC",
-                    "link" : "",
-                    "instructions" : ""
                 },
                 {
                     "name" : "Schedule LP",
@@ -2406,6 +2409,7 @@
         {
             "state-name" : "Michigan",
             "link" : "https://www.michigan.gov/taxes/0,4676,7-238-43513---,00.html",
+            "search" : "https://treas-secure.state.mi.us/TaxFormSearch",
             "forms" : [
                 {	
                     "name" : "Form MI-1040"
@@ -2523,6 +2527,7 @@
         {
             "state-name" : "Minnesota",
             "link" : "https://www.revenue.state.mn.us/form-search",
+            "search" : "https://www.revenue.state.mn.us/form-search?search_text=income+tax&field_document_type=All&field_audience=All&field_tax_type=106&field_tax_year=All",
             "forms" : [
                 {	
                     "name" : "Form M1"
@@ -2637,6 +2642,7 @@
         {
             "state-name" : "Mississippi",
             "link" : "https://www.dor.ms.gov/individual/individual-income-tax-forms",
+            "search" : "https://www.dor.ms.gov/individual/individual-income-tax-forms",
             "forms" : [
                 {	
                     "name" : "Form 71-661"
@@ -2676,6 +2682,7 @@
         {
             "state-name" : "Missouri",
             "link" : "https://dor.mo.gov/forms/{form}_{year}.pdf",
+            "search" : "https://dor.mo.gov/forms/",
             "forms" : [
                 {	
                     "name" : "Form MO-1040",
@@ -2732,6 +2739,7 @@
         {
             "state-name" : "Montana",
             "link" : "https://mtrevenue.gov/publications/{form}/",
+            "search" : "",
             "forms" : [
                 {	
                     "name" : "Form 2",
@@ -2754,6 +2762,7 @@
         {
             "state-name" : "Nebraska",
             "link" : "https://revenue.nebraska.gov/sites/revenue.nebraska.gov/files/doc/tax-forms/{year}/{form}.pdf",
+            "search" : "https://revenue.nebraska.gov/about/forms/individual-income-tax-forms",
             "forms" : [
                 {	
                     "name" : "Form 1040N",
@@ -2825,6 +2834,7 @@
         {
             "state-name" : "New Jersey",
             "link" : "https://www.state.nj.us/treasury/taxation/pdf/other_forms/tgi-ee/{year}/{form}.pdf",
+            "search" : "https://www.state.nj.us/treasury/taxation/prntgit.shtml",
             "forms" : [
                 {	
                     "name" : "Form NJ-1040",
@@ -2916,6 +2926,7 @@
         {
             "state-name" : "New Mexico",
             "link" : "https://www.tax.newmexico.gov/forms-publications/",
+            "search" : "https://www.tax.newmexico.gov/forms-publications/",
             "forms" : [
                 {	
                     "name" : "Form PIT-1"
@@ -2961,6 +2972,7 @@
         {
             "state-name" : "New York",
             "link" : "https://www.tax.ny.gov/pdf/{year}/inc/{form}.pdf",
+            "search" : "https://www.tax.ny.gov/forms/income_cur_forms.htm",
             "forms" : [
                 {	
                     "name" : "Form IT-2",
@@ -3188,16 +3200,6 @@
                     "instructions" : "it203xi{year}"
                 },
                 {	
-                    "name" : "Form TR-579-IT",
-                    "link" : "",
-                    "instructions" : ""
-                },
-                {	
-                    "name" : "Form TR-579.1-IT",
-                    "link" : "",
-                    "instructions" : ""
-                },
-                {	
                     "name" : "Form Y-203",
                     "link" : "y203{year}_fill_in",
                     "instructions" : "y203i{year}"
@@ -3242,6 +3244,7 @@
         {
             "state-name" : "North Carolina",
             "link" : "https://www.ncdor.gov/taxes-forms/individual-income-tax-forms-instructions#{year}",
+            "search" : "https://www.ncdor.gov/taxes-forms/individual-income-tax-forms-instructions",
             "forms" : [
                 {	
                     "name" : "Form D400"
@@ -3278,6 +3281,7 @@
         {
             "state-name" : "North Dakota",
             "link" : "https://www.tax.nd.gov/sites/www/files/documents/forms/individual/{year}-iit/{form}.pdf",
+            "search" : "https://www.tax.nd.gov/forms",
             "forms" : [
                 {	
                     "name" : "Form ND-1",
@@ -3334,6 +3338,7 @@
         {
             "state-name" : "Ohio",
             "link" : "https://tax.ohio.gov/wps/portal/gov/tax/individual/get-a-form",
+            "search" : "https://tax.ohio.gov/wps/portal/gov/tax/individual/get-a-form",
             "forms" : [
                 {	
                     "name" : "Form IT1040"
@@ -3406,6 +3411,7 @@
         {
             "state-name" : "Oklahoma",
             "link" : "https://oklahoma.gov/content/dam/ok/en/tax/documents/forms/individuals/{year}/{form}.pdf",
+            "search" : "https://oklahoma.gov/tax/forms.html",
             "forms" : [
                 {	
                     "name" : "Form 511 (all schedules)",
@@ -3464,6 +3470,7 @@
         {
             "state-name" : "Oregon",
             "link" : "https://www.oregon.gov/dor/forms/FormsPubs/{form}_{year}.pdf",
+            "search" : "https://www.oregon.gov/dor/forms/Pages/default.aspx",
             "forms" : [
                 {	
                     "name" : "Form OR-40",
@@ -3520,6 +3527,7 @@
         {
             "state-name" : "Pennsylvania",
             "link" : "https://www.revenue.pa.gov/FormsandPublications/FormsforIndividuals/PIT/Documents/{form}.pdf",
+            "search" : "https://www.revenue.pa.gov/FormsandPublications/FormsforIndividuals/PIT/Pages/default.aspx",
             "forms" : [
                 {	
                     "name" : "Form PA-40",
@@ -3637,6 +3645,7 @@
             "state-name" : "Rhode Island",
             "link-prior" : "https://tax.ri.gov/forms/prior-year-tax/year-ending-1231{year}",
             "link-current" : "https://tax.ri.gov/forms/individual-tax-forms/personal-income-tax-forms",
+            "search" : "https://tax.ri.gov/forms/individual-tax-forms/personal-income-tax-forms",
             "forms" : [
                 {	
                     "name" : "Form RI-1040"
@@ -3688,6 +3697,7 @@
         {
             "state-name" : "South Carolina",
             "link" : "https://dor.sc.gov/forms-site/Forms/{form}_{year}.pdf",
+            "search" : "https://dor.sc.gov/tax/individual-income/forms",
             "forms" : [
                 {	
                     "name" : "Form SC1040",
@@ -3754,6 +3764,7 @@
         {
             "state-name" : "Utah",
             "link" : "https://tax.utah.gov/forms/{year}/{form}.pdf",
+            "search" : "https://tax.utah.gov/forms-pubs",
             "forms" : [
                 {	
                     "name" : "Form TC-40",
@@ -3805,6 +3816,7 @@
         {
             "state-name" : "Vermont",
             "link" : "https://tax.vermont.gov/sites/tax/files/documents/{form}-{year}.pdf",
+            "search" : "https://tax.vermont.gov/tax-forms-and-publications/individuals",
             "forms" : [
                 {	
                     "name" : "Form IN-111",
@@ -3857,7 +3869,8 @@
             "state-name" : "Virginia",
             "link" : "https://www.tax.virginia.gov/sites/default/files/taxforms/individual-income-tax/{year}/{form}.pdf",
             "instructions" : "https://www.tax.virginia.gov/sites/default/files/vatax-pdf/{form}.pdf",
-            "search" : "https://www.tax.virginia.gov/forms/search?search=&year={yr_val}&category=1&type=tax_form_instructions",
+            "search-year" : "https://www.tax.virginia.gov/forms/search?search=&year={yr_val}&category=1&type=tax_form_instructions",
+            "search" : "https://www.tax.virginia.gov/forms/search?search=&year=All&category=1&type=tax_form_instructions",
             "forms" : [
                 {	
                     "name" : "Form 760",
@@ -3934,6 +3947,7 @@
         {
             "state-name" : "West Virginia",
             "link" : "https://tax.wv.gov/Documents/TaxForms/{year}/it140.booklet.pdf",
+            "search" : "https://tax.wv.gov/Individuals/Pages/Individuals.aspx",
             "forms" : [
                 {	
                     "name" : "IT-140"
@@ -3994,6 +4008,7 @@
         {
             "state-name" : "Wisconsin",
             "link" : "https://www.revenue.wi.gov/Pages/Form/{year}Individual.aspx",
+            "search" : "https://www.revenue.wi.gov/Pages/HTML/formpub.aspx",
             "forms" : [
                 {
                     "name" : "Form 1"

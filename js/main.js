@@ -17,17 +17,25 @@ window.onload = function() {
     initYears();
  
     yearSelect.addEventListener("change", createLink);
-    fedStateSelect.addEventListener("change", initStateOrFed);
+    fedStateSelect.addEventListener("change", function() {
+        initStateOrFed();
+        if (document.getElementById('fs-select').selectedOptions[0].value === "fed") {
+            genSearch("fed");
+        }
+    });
     formTypeSelect.addEventListener("change", initStateOrFed);
     formSelect.addEventListener("change", createLink);
     document.getElementById('link-button').addEventListener("click", openWindow);
-    document.getElementById('state-select').addEventListener("change", fillStateForms);
-
+    document.getElementById('state-select').addEventListener("change", function() {
+        genSearch(document.getElementById('state-select').selectedOptions[0].value);
+        fillStateForms();
+    });
+    
     if (fedStateSelect.selectedOptions[0].value === "fed") fillFed;
     else if (fedStateSelect.selctedOptions[0].value === "state") fillStates;
 
     //document.getElementById('link-text').addEventListener("click", copyLink);
-   
+   genSearch("fed");
 }
 
 function initYears() {
@@ -45,14 +53,16 @@ function initYears() {
 }
 
 function createLink() {
+    link = "";
     var year = document.getElementById('year-select').selectedOptions[0].value;
     var fedState = document.getElementById('fs-select').selectedOptions[0].value;
     var formType = document.getElementById('form-type-select').selectedOptions[0].value;
     var form = document.getElementById('form-select').selectedOptions[0].value;
 
+    if (form == "-1") { return; }
+
     if (fedState === "fed") {
         if (formType === 'i') {
-            var formName = document.getElementById('form-select').selectedOptions[0].innerText;
             form = jsonData.federal[form]['i-value'];
         } else if (formType === 'p') {
             form = jsonData.publications[form]['p-value'];
@@ -154,6 +164,8 @@ function createLink() {
         } else if(stateInd == 41) {
             link = createLinkWi(stateInd, year);
         }
+
+        genSearch(stateInd);
     }
     
     if (link) {
@@ -278,6 +290,26 @@ function initStateOrFed() {
     createLink();
 }
 
+function genSearch(stateInd) {
+    var link;
+    var name; 
+    if (stateInd === "fed") {
+        link = jsonData['fed-search'];
+        name = "the IRS"
+    } else {
+        link = jsonData.states[stateInd]['search'];
+        name = jsonData.states[stateInd]['state-name'];
+    }
+
+    var e = document.getElementById('search-link');
+    e.innerText = "Search " + name + "'s website here";
+    e.href = link;
+
+    //e.addEventListener('click', function open(link) {
+        //window.open(`"${link}"`, '_blank');
+    //});
+}
+
 function clearForms() {
     var ele = document.getElementsByClassName('fList');
     while(ele[0]) { ele[0].remove(); }
@@ -315,17 +347,23 @@ function createLinkAz(stateInd, form) {
 }
 
 function createLinkAr(stateInd, type, form, year) {
+    var link = jsonData.states[stateInd]['link'];
     if (type === "i") type = "instructions";
     else if (type === "f") type = "link";  
 
-    return "https://www.dfa.arkansas.gov/images/uploads/incomeTaxOffice/" + jsonData.states[stateInd]['forms'][form][type].replace("{year}", year);
+    var formName = jsonData.states[stateInd]['forms'][form][type].replace("{year}", year);
+
+    return link.replace("{form}", formName);
 }
 
 function createLinkCa(stateInd, type, form, year) {
+    var link = jsonData.states[stateInd]['link'].replace("{year}/{year}", year + '/' + year);
+
     if (type === "i") type = "instructions";
     else if (type === "f") type = "link"; 
 
-    return `https://www.ftb.ca.gov/forms/${year}/${year}-` + jsonData.states[stateInd]['forms'][form][type];
+    var formName =  jsonData.states[stateInd]['forms'][form][type];
+    return link.replace("{form}", formName)
 }
 
 function createLinkCo(stateInd, year) {
@@ -633,7 +671,7 @@ function createLinkVa(stateInd, type, form, year) {
         else if (year == 2018) year = 249;
         else year = "All";
 
-        return jsonData.states[stateInd]['search'].replace("{yr_val}", year);
+        return jsonData.states[stateInd]['search-year'].replace("{yr_val}", year);
         
     } else if (type === "f") {
         link = jsonData.states[stateInd]['link'].replace("{year}", year);

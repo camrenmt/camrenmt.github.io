@@ -146,11 +146,11 @@ function createLink() {
         } else if(stateInd == 38) {
             link = createLinkVt(stateInd, formType, form, year);
         } else if(stateInd == 39) {
-            link = createLinkVi(stateInd, formType, form, year);
+            link = createLinkVa(stateInd, formType, form, year);
         } else if(stateInd == 40) {
-            link = createLinkWv(stateInd, formType, form, year);
+            link = createLinkWv(stateInd, year);
         } else if(stateInd == 41) {
-            link = createLinkWi(stateInd, formType, form, year);
+            link = createLinkWi(stateInd, year);
         }
     }
     
@@ -517,6 +517,7 @@ function createLinkNy(stateInd, type, form, year) {
 
     return link.replace("{form}", formName)
 }
+
 function createLinkNc(stateInd, year) {
     return jsonData.states[stateInd]['link'].replace("{year}", year);
 }
@@ -617,4 +618,36 @@ function createLinkVt(stateInd, type, form, year) {
 
     var formName = jsonData.states[stateInd]['forms'][form][type];
     return link.replace("{form}", formName);
+}
+
+function createLinkVa(stateInd, type, form, year) {
+    var link; 
+
+    if (type === "i") {
+        if (year == 2022) year = 623;
+        else if (year == 2021) year = 611;
+        else if (year == 2020) year = 266;
+        else if (year == 2019) year = 260;
+        else if (year == 2018) year = 249;
+        else year = "All";
+
+        return jsonData.states[stateInd]['search'].replace("{yr_val}", year);
+        
+    } else if (type === "f") {
+        link = jsonData.states[stateInd]['link'].replace("{year}", year);
+        type = "link";
+    }
+    else return; 
+
+    var formName = jsonData.states[stateInd]['forms'][form][type].replace("{year}", year);
+
+    return link.replace("{form}", formName)
+}
+
+function createLinkWv(stateInd, year) {
+    return jsonData.states[stateInd]['link'].replace("{year}", year);
+}
+
+function createLinkWi(stateInd, year) {
+    return jsonData.states[stateInd]['link'].replace("{year}", year);
 }

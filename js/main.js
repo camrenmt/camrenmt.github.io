@@ -94,7 +94,7 @@ function createLink() {
         } else if(stateInd == 12) {
             link = createLinkIn(stateInd, year);
         } else if(stateInd == 13) {
-            link = createLinkIa(stateInd, year);
+            link = createLinkIa(stateInd);
         } else if(stateInd == 14) {
             link = createLinkKs(stateInd, formType, form, year);
         } else if(stateInd == 15) {

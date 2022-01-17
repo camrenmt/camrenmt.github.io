@@ -339,7 +339,7 @@ function copyLink() {
 function createLinkAl(stateInd, type, form, year) {
     if (type === "i") type = "instructions";
     else if (type === "f") type = "forms";
-    return jsonData.states[stateInd][type][form][year];
+    return jsonData.states[stateInd]['search'];
 }
 
 function createLinkAz(stateInd, form) {

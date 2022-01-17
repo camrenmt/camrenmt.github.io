@@ -36,7 +36,7 @@ CO
 CT
 DE
 DC //links to general page, to which you must select the year
-GA // FIX_ME
+GA 
 ID
 IL
 IN
@@ -48,6 +48,7 @@ WI
 Count : 12
 
 *** States with fixed all-year, general forms-search links ***
+AL // maybe temporary? Needs to be reworked
 IA
 KY
 LA

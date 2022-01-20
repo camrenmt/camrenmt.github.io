@@ -225,6 +225,211 @@
             "name" : "Form 6781",
             "f-value" : "f6781",
             "i-value" : "i6781"
+        },
+        {	
+            "name" : "Form 7202",
+            "f-value" : "f7202",
+            "i-value" : "i7202"
+        },
+        {
+            "name" : "Form 8283",
+            "f-value" : "f8283",
+            "i-value" : "i8283"
+        },
+        {
+            "name" : "Form 8379",
+            "f-value" : "f8379",
+            "i-value" : "i8379"
+        },
+        {
+            "name" : "Form 8396",
+            "f-value" : "f8396",
+            "i-value" : "f8396"
+        },
+        {
+            "name" : "Form 8453",
+            "f-value" : "f8453",
+            "i-value" : "f8453"
+        },
+        {
+            "name" : "Form 8582",
+            "f-value" : "f8582",
+            "i-value" : "i8582"
+        },
+        {
+            "name" : "Form 8582-CR",
+            "f-value" : "f8582cr",
+            "i-value" : "i8582cr"
+        },
+        {
+            "name" : "Form 8606",
+            "f-value" : "f8606",
+            "i-value" : "i8606"
+        },
+        {
+            "name" : "Form 8615",
+            "f-value" : "f8615",
+            "i-value" : "i8615"
+        },
+        {
+            "name" : "Form 8801",
+            "f-value" : "f8801",
+            "i-value" : "i8801"
+        },
+        {
+            "name" : "Form 8814",
+            "f-value" : "f8814",
+            "i-value" : "f8814"
+        },
+        {
+            "name" : "Form 8829",
+            "f-value" : "f8829",
+            "i-value" : "i8829"
+        },
+        {
+            "name" : "Form 8839",
+            "f-value" : "f8839",
+            "i-value" : "i8839"
+        },
+        {
+            "name" : "Form 8853",
+            "f-value" : "f8853",
+            "i-value" : "i8853"
+        },
+        {
+            "name" : "Form 8862",
+            "f-value" : "f8862",
+            "i-value" : "i8862"
+        },
+        {
+            "name" : "Form 8863",
+            "f-value" : "f8863",
+            "i-value" : "i8863"
+        },
+        {
+            "name" : "Form 8867",
+            "f-value" : "f8867",
+            "i-value" : "i8867"
+        },
+        {
+            "name" : "Form 8878",
+            "f-value" : "f8878",
+            "i-value" : "f8878"
+        },
+        {
+            "name" : "Form 8879",
+            "f-value" : "f8879",
+            "i-value" : "f8879"
+        },
+        {
+            "name" : "Form 8880",
+            "f-value" : "f8880",
+            "i-value" : "f8880"
+        },
+        {
+            "name" : "Form 8888",
+            "f-value" : "f8888",
+            "i-value" : "f8888"
+        },
+        {
+            "name" : "Form 8889",
+            "f-value" : "f8889",
+            "i-value" : "i8889"
+        },
+        {
+            "name" : "Form 8911",
+            "f-value" : "f8911",
+            "i-value" : "i8911"
+        },
+        {
+            "name" : "Form 8915C",
+            "f-value" : "f8915c",
+            "i-value" : "i8915c"
+        },
+        {
+            "name" : "Form 8915D",
+            "f-value" : "f8915d",
+            "i-value" : "i8915d"
+        },
+        {
+            "name" : "Form 8915F",
+            "f-value" : "f8915f",
+            "i-value" : "i8915f"
+        },
+        {
+            "name" : "Form 8919",
+            "f-value" : "f8919",
+            "i-value" : "f8919"
+        },
+        {
+            "name" : "Form 8936",
+            "f-value" : "f8936",
+            "i-value" : "i8936"
+        },
+        {
+            "name" : "Form 8938",
+            "f-value" : "f8938",
+            "i-value" : "i8939"
+        },
+        {
+            "name" : "Form 8941",
+            "f-value" : "f8941",
+            "i-value" : "i8941"
+        },
+        {
+            "name" : "Form 8948",
+            "f-value" : "f8948",
+            "i-value" : "f8948"
+        },
+        {
+            "name" : "Form 8949",
+            "f-value" : "f8949",
+            "i-value" : "i8949"
+        },
+        {
+            "name" : "Form 8959",
+            "f-value" : "f8959",
+            "i-value" : "i8959"
+        },
+        {
+            "name" : "Form 8960",
+            "f-value" : "f8969",
+            "i-value" : "i8969"
+        },
+        {
+            "name" : "Form 8962",
+            "f-value" : "f8962",
+            "i-value" : "i8962"
+        },
+        {
+            "name" : "Form 8995",
+            "f-value" : "f8995",
+            "i-value" : "i8995"
+        },
+        {
+            "name" : "Form 8995-A",
+            "f-value" : "f8995a",
+            "i-value" : "i8995a"
+        },
+        {
+            "name" : "Form 8995-A Schedule A",
+            "f-value" : "f8995aa",
+            "i-value" : "i8995aa"
+        },
+        {
+            "name" : "Form 8995-A Schedule C",
+            "f-value" : "f8995ac",
+            "i-value" : "i8995ac"
+        },
+        {
+            "name" : "Form 8995-A Schedule D",
+            "f-value" : "f8995ad",
+            "i-value" : "i8995ad"
+        },
+        {
+            "name" : "Form 9465",
+            "f-value" : "f9465",
+            "i-value" : "i9465"
         }
     ],
 
